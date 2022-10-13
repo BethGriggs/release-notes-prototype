@@ -1,0 +1,132 @@
+[
+  {
+    "id": "JDK-8263543",
+    "title": "JDK-8202343 is incomplete",
+    "description": null,
+    "priority": "2",
+    "component": "security-libs",
+    "subcomponent": "security-libs/javax.net.ssl",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8263543",
+    "type": "Backport"
+  },
+  {
+    "id": "JDK-8263016",
+    "title": "Upgrade to LittleCMS 2.11",
+    "description": null,
+    "priority": "3",
+    "component": "client-libs",
+    "subcomponent": "client-libs/2d",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8263016",
+    "type": "Backport"
+  },
+  {
+    "id": "JDK-8263015",
+    "title": "Upgrade to freetype 2.10.2",
+    "description": null,
+    "priority": "3",
+    "component": "client-libs",
+    "subcomponent": "client-libs/2d",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8263015",
+    "type": "Backport"
+  },
+  {
+    "id": "JDK-8263088",
+    "title": "Incorrect numeric currency code for ROL",
+    "description": null,
+    "priority": "4",
+    "component": "core-libs",
+    "subcomponent": "core-libs/java.util:i18n",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8263088",
+    "type": "Backport"
+  },
+  {
+    "id": "JDK-8262974",
+    "title": "PPC64 Zero build fails with 'VMError::controlled_crash(int)::FunctionDescriptor functionDescriptor' has incomplete type and cannot be defined",
+    "description": null,
+    "priority": "2",
+    "component": "hotspot",
+    "subcomponent": "hotspot/runtime",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8262974",
+    "type": "Backport"
+  },
+  {
+    "id": "JDK-8262541",
+    "title": "Bump update version for OpenJDK: jdk-15.0.3",
+    "description": "Bump the version of jdk15u to 15.0.3.\r\nExpected release date is 2021-04-20 \r\nRelease value 15.0.3 added to JBS",
+    "priority": "4",
+    "component": "infrastructure",
+    "subcomponent": "infrastructure",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8262541",
+    "type": "Enhancement"
+  },
+  {
+    "id": "JDK-8265540",
+    "title": "compiler/graalunit/CoreTest.java fails with NPE after JDK-8244543",
+    "description": null,
+    "priority": "3",
+    "component": "hotspot",
+    "subcomponent": "hotspot/compiler",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8265540",
+    "type": "Backport"
+  },
+  {
+    "id": "JDK-8263542",
+    "title": "Disable TLS 1.0 and 1.1",
+    "description": null,
+    "priority": "2",
+    "component": "security-libs",
+    "subcomponent": "security-libs/javax.net.ssl",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8263542",
+    "type": "Backport"
+  },
+  {
+    "id": "JDK-8263076",
+    "title": "Code IfNode::fold_compares_helper more defensively",
+    "description": null,
+    "priority": "2",
+    "component": "hotspot",
+    "subcomponent": "hotspot/compiler",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8263076",
+    "type": "Backport"
+  },
+  {
+    "id": "JDK-8263014",
+    "title": "(tz) Upgrade time-zone data to tzdata2021a",
+    "description": null,
+    "priority": "3",
+    "component": "core-libs",
+    "subcomponent": "core-libs/java.time",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8263014",
+    "type": "Backport"
+  },
+  {
+    "id": "JDK-8263013",
+    "title": "(tz) Upgrade time-zone data to tzdata2020f",
+    "description": null,
+    "priority": "4",
+    "component": "core-libs",
+    "subcomponent": "core-libs/java.time",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8263013",
+    "type": "Backport"
+  },
+  {
+    "id": "JDK-8262855",
+    "title": "Remove root certificates with 1024-bit keys",
+    "description": null,
+    "priority": "3",
+    "component": "security-libs",
+    "subcomponent": "security-libs/java.security",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8262855",
+    "type": "Backport"
+  },
+  {
+    "id": "JDK-8247676",
+    "title": "vcruntime140_1.dll is not needed on 32-bit Windows",
+    "description": "Configure fails on --with-target-bits=32 for Windows since it tries to locate the non-existing 32-bit version of vcruntime140_1.dll. This is not needed on 32 bit and should be skipped.\r\n\r\nIn JDK 16+, this seems to be implicitly fixed with JDK-8248238:\r\n  https://github.com/openjdk/jdk/commit/9604ee82#diff-faa23e14e93e8ccffb102d4696b367b75f88ae8dcc91b02b473bdc69b4a7b786R734\r\n\r\n...and followup in JDK-8257679:\r\n  https://github.com/openjdk/jdk/commit/d29c78da#diff-9ae6a9495d0da7dfc02e8d804de187641e8dd59c7ae671ac2170c21d4c6204e2R607\r\n\r\nJDK 15 Windows 32 builds still fail, and may need a point fix like this:\r\n\r\ndiff -r c5dd31945532 make/autoconf/toolchain_windows.m4\r\n--- a/make/autoconf/toolchain_windows.m4\tWed Jan 20 17:26:13 2021 +0000\r\n+++ b/make/autoconf/toolchain_windows.m4\tMon Feb 08 19:15:25 2021 +0100\r\n@@ -807,7 +807,7 @@\r\n   AC_ARG_WITH(vcruntime-1-dll, [AS_HELP_STRING([--with-vcruntime-1-dll],\r\n       [path to microsoft C++ runtime dll (vcruntime*_1.dll) (Windows only) @<:@probed@:>@])])\r\n \r\n-  if test \"x$VCRUNTIME_1_NAME\" != \"x\"; then\r\n+  if test \"x$VCRUNTIME_1_NAME\" != \"x\" && test \"x$OPENJDK_TARGET_CPU\" = xx86_64; then\r\n     if test \"x$with_vcruntime_1_dll\" != x; then\r\n       # If given explicitly by user, do not probe. If not present, fail directly.\r\n       TOOLCHAIN_CHECK_POSSIBLE_MSVC_DLL($VCRUNTIME_1_NAME, [$with_vcruntime_1_dll],\r\n\r\nWith the patch above, JDK 15 Windows 32 builds work.",
+    "priority": "3",
+    "component": "infrastructure",
+    "subcomponent": "infrastructure/build",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8247676",
+    "type": "Bug"
+  }
+]
