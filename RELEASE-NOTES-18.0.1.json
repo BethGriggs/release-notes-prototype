@@ -2,6 +2,7 @@
   {
     "id": "JDK-8281211",
     "title": "Correct signer logic for jars signed with multiple digest algorithms",
+    "description": null,
     "priority": "3",
     "component": "security-libs",
     "subcomponent": "security-libs/java.security",
@@ -11,6 +12,7 @@
   {
     "id": "JDK-8281191",
     "title": "Compilation logging crashes for thread suspension / debugging tests",
+    "description": null,
     "priority": "4",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -20,6 +22,7 @@
   {
     "id": "JDK-8281189",
     "title": "C2: assert(f <= 1 && f >= 0) failed: Incorrect frequency",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -29,6 +32,7 @@
   {
     "id": "JDK-8282269",
     "title": "JNDI DNS provider fails to resolve SRV entries when IPV6 stack is enabled",
+    "description": null,
     "priority": "3",
     "component": "core-libs",
     "subcomponent": "core-libs/javax.naming",
@@ -38,6 +42,7 @@
   {
     "id": "JDK-8278869",
     "title": "Bump version numbers for OPENJDK 18.0.1",
+    "description": "update version information for repo:\r\nhttps://github.com/openjdk/jdk18u",
     "priority": "4",
     "component": "infrastructure",
     "subcomponent": "infrastructure",
@@ -47,6 +52,7 @@
   {
     "id": "JDK-8280822",
     "title": "macos attempt_reserve_memory_at(arg1, arg2, true) failure",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/runtime",
@@ -56,6 +62,7 @@
   {
     "id": "JDK-8282806",
     "title": "Memory leak in invoker.c fillInvokeRequest() during JDI operations",
+    "description": null,
     "priority": "3",
     "component": "core-svc",
     "subcomponent": "core-svc/debugger",
@@ -65,6 +72,7 @@
   {
     "id": "JDK-8282206",
     "title": "Add expiry exception for Digicert (geotrustglobalca) expiring in May 2022",
+    "description": null,
     "priority": "3",
     "component": "security-libs",
     "subcomponent": "security-libs/java.security",
@@ -74,6 +82,7 @@
   {
     "id": "JDK-8282009",
     "title": "Windows builds in different directories are not fully reproducible",
+    "description": null,
     "priority": "4",
     "component": "infrastructure",
     "subcomponent": "infrastructure/build",
@@ -83,6 +92,7 @@
   {
     "id": "JDK-8281556",
     "title": "SplittableRandom#nextDouble(double,double) can return result >= bound",
+    "description": null,
     "priority": "4",
     "component": "core-libs",
     "subcomponent": "core-libs/java.util",
@@ -92,6 +102,7 @@
   {
     "id": "JDK-8281557",
     "title": "RandomGenerator:NextDouble() default behavior non conformant after JDK-8280550 fix",
+    "description": null,
     "priority": "2",
     "component": "core-libs",
     "subcomponent": "core-libs/java.util",
@@ -101,6 +112,7 @@
   {
     "id": "JDK-8281399",
     "title": "LDAP connection timeout not honoured under contention",
+    "description": null,
     "priority": "3",
     "component": "core-libs",
     "subcomponent": "core-libs/javax.naming",
@@ -110,6 +122,7 @@
   {
     "id": "JDK-8281196",
     "title": "Memory leak in DefaultProxySelector",
+    "description": null,
     "priority": "4",
     "component": "core-libs",
     "subcomponent": "core-libs/java.net",
@@ -119,6 +132,7 @@
   {
     "id": "JDK-8280043",
     "title": "Define version in .jcheck/conf",
+    "description": null,
     "priority": "3",
     "component": "infrastructure",
     "subcomponent": "infrastructure/build",
@@ -128,6 +142,7 @@
   {
     "id": "JDK-8282747",
     "title": "org.jcp.xml.dsig.internal.dom.Utils.parseIdFromSameDocumentURI throws StringIndexOutOfBoundsException when calling substring method",
+    "description": null,
     "priority": "4",
     "component": "security-libs",
     "subcomponent": "security-libs/javax.xml.crypto",
@@ -137,6 +152,7 @@
   {
     "id": "JDK-8282035",
     "title": "javax/print/PrintServiceLookup/FlushCustomClassLoader.java fails to free",
+    "description": null,
     "priority": "4",
     "component": "client-libs",
     "subcomponent": "client-libs",
@@ -146,6 +162,7 @@
   {
     "id": "JDK-8282013",
     "title": "Upgrading from 8 to 11 no longer accepts '/' as filepath separator in gc paths",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/runtime",
@@ -155,6 +172,7 @@
   {
     "id": "JDK-8281559",
     "title": "RandomGenerator:NextDouble() default behavior partially fixed by JDK-8280950",
+    "description": null,
     "priority": "2",
     "component": "core-libs",
     "subcomponent": "core-libs/java.util",
@@ -164,6 +182,7 @@
   {
     "id": "JDK-8281192",
     "title": "C2: Infinite loop in CMoveINode::Ideal during IGVN",
+    "description": null,
     "priority": "4",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -173,6 +192,7 @@
   {
     "id": "JDK-8281190",
     "title": "[JVMCI] failed speculations list must outlive any nmethod that refers to it",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -182,6 +202,7 @@
   {
     "id": "JDK-8281187",
     "title": "[JVMCI] exception in HotSpotJVMCIRuntime.translate can exit the VM",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -191,6 +212,7 @@
   {
     "id": "JDK-8281188",
     "title": "[arm32] C1 longs comparison operation destroys argument registers",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -200,6 +222,7 @@
   {
     "id": "JDK-8280968",
     "title": "x86_32 Math.sqrt performance regression with -XX:UseSSE={0,1}",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -209,6 +232,7 @@
   {
     "id": "JDK-8280966",
     "title": "Update JMH devkit to 1.34",
+    "description": null,
     "priority": "4",
     "component": "infrastructure",
     "subcomponent": "infrastructure/build",
@@ -218,6 +242,7 @@
   {
     "id": "JDK-8279691",
     "title": "Bytecodes::result_type() for arraylength returns T_VOID instead of T_INT",
+    "description": null,
     "priority": "4",
     "component": "hotspot",
     "subcomponent": "hotspot/runtime",
@@ -227,6 +252,7 @@
   {
     "id": "JDK-8283516",
     "title": "Remove 3 krb5.conf settings from The Kerberos 5 GSS-API Mechanism",
+    "description": "As described in https://bugs.openjdk.java.net/browse/JDK-8274657, the following settings should be removed from the \"Supported krb5.conf Settings\" box in https://docs.oracle.com/en/java/javase/17/security/kerberos-5-gss-api-mechanism.html.\r\n\r\nap_req_checksum_type\r\ndefault_checksum\r\nsafe_checksum_type\r\n",
     "priority": "3",
     "component": "docs",
     "subcomponent": "docs/guides",
@@ -236,6 +262,7 @@
   {
     "id": "JDK-8280874",
     "title": "Drag And Drop hangs on Windows",
+    "description": null,
     "priority": "3",
     "component": "client-libs",
     "subcomponent": "client-libs/java.awt",
@@ -245,6 +272,7 @@
   {
     "id": "JDK-8273941",
     "title": "G1 GC tuning guide updates for JDK18",
+    "description": "With JDK-8017163 there were significant changes to not only how the remembered set is represented, but also output the garbage collector provides.\r\n\r\nThe GC tuning guide (linking the one for 17: https://docs.oracle.com/en/java/javase/17/gctuning/garbage-first-garbage-collector-tuning.html#GUID-A0343B53-A690-4DDE-98F9-9877096DBF0F) the section \"High Update RS and Scan RS Times\" needs to be revised.\r\n\r\nRequested changes are added as comments starting with the \"change:\" keyword.",
     "priority": "3",
     "component": "docs",
     "subcomponent": "docs/guides",
@@ -254,6 +282,7 @@
   {
     "id": "JDK-8281669",
     "title": "[test]  Adjust sun/security/pkcs12/KeytoolOpensslInteropTest.java after 8278344",
+    "description": null,
     "priority": "4",
     "component": "security-libs",
     "subcomponent": "security-libs",
@@ -263,6 +292,7 @@
   {
     "id": "JDK-8281877",
     "title": "Remove EA from JDK 18 version string starting with Initial RC promotion B35 on February 10, 2022",
+    "description": null,
     "priority": "2",
     "component": "infrastructure",
     "subcomponent": "infrastructure/release_eng",
@@ -272,6 +302,7 @@
   {
     "id": "JDK-8281876",
     "title": "[BACKOUT] AArch64: Implement string_compare intrinsic in SVE",
+    "description": null,
     "priority": "1",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -281,6 +312,7 @@
   {
     "id": "JDK-8281668",
     "title": "[JVMCI] assert((uint)reason < 2* _trap_hist_limit) failed: oob",
+    "description": null,
     "priority": "2",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -290,6 +322,7 @@
   {
     "id": "JDK-8278472",
     "title": "Invalid value set to CANDIDATEFORM structure",
+    "description": "According to the Windows API reference[1], dwStyle of CANDIDATEFORM structure should be set to CFS_CANDIDATEPOS or CFS_EXCLUDE. So, CFS_POINT is wrong here.\r\n  \r\nSee line 3914 in src\\java.desktop\\windows\\native\\libawt\\windows\\awt_Component.cpp [2], AwtComponent::SetCandidateWindow function:\r\n        CANDIDATEFORM cf;\r\n        cf.dwStyle = CFS_POINT;\r\n        ImmGetCandidateWindow(hIMC, 0, &cf);\r\n\r\n[1] https://docs.microsoft.com/en-us/windows/win32/api/imm/ns-imm-candidateform\r\n[2] https://github.com/openjdk/jdk/blob/f90425a1cbbc686045c87086af586e62f05f6c49/src/java.desktop/windows/native/libawt/windows/awt_Component.cpp#L3914",
     "priority": "3",
     "component": "client-libs",
     "subcomponent": "client-libs/java.awt:i18n",
@@ -299,6 +332,7 @@
   {
     "id": "JDK-8281667",
     "title": "Small javadoc tweaks to foreign API",
+    "description": null,
     "priority": "3",
     "component": "core-libs",
     "subcomponent": "core-libs",
@@ -308,6 +342,7 @@
   {
     "id": "JDK-8280673",
     "title": "Missing \"classpath exception\" in several files from jdk.httpserver",
+    "description": null,
     "priority": "3",
     "component": "core-libs",
     "subcomponent": "core-libs/java.net",
@@ -317,6 +352,7 @@
   {
     "id": "JDK-8280672",
     "title": "Update nroff pages in JDK 18 before RC",
+    "description": null,
     "priority": "3",
     "component": "infrastructure",
     "subcomponent": "infrastructure",
@@ -326,6 +362,7 @@
   {
     "id": "JDK-8280636",
     "title": "Loop optimization issue in String.encodeUTF8_UTF16",
+    "description": null,
     "priority": "2",
     "component": "core-libs",
     "subcomponent": "core-libs/java.lang",
@@ -335,6 +372,7 @@
   {
     "id": "JDK-8280618",
     "title": "C1: No inlining through invokedynamic and invokestatic call sites when resolved class is not linked",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -344,6 +382,7 @@
   {
     "id": "JDK-8280608",
     "title": "Document the new -version option in keytool and jarsigner",
+    "description": null,
     "priority": "4",
     "component": "security-libs",
     "subcomponent": "security-libs/java.security",
@@ -353,6 +392,7 @@
   {
     "id": "JDK-8279780",
     "title": "sun/security/pkcs12/KeytoolOpensslInteropTest.java test fails because of different openssl output",
+    "description": null,
     "priority": "4",
     "component": "security-libs",
     "subcomponent": "security-libs",
@@ -362,6 +402,7 @@
   {
     "id": "JDK-8279782",
     "title": "compiler/loopopts/TestSkeletonPredicateNegation.java times out with -XX:TieredStopAtLevel < 4",
+    "description": null,
     "priority": "4",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -371,6 +412,7 @@
   {
     "id": "JDK-8279778",
     "title": "JavacTrees.searchMethod finds incorrect match",
+    "description": null,
     "priority": "3",
     "component": "tools",
     "subcomponent": "tools/javac",
@@ -380,6 +422,7 @@
   {
     "id": "JDK-8279777",
     "title": "Dereferencing segments backed by different scopes leads to pollution",
+    "description": null,
     "priority": "3",
     "component": "core-libs",
     "subcomponent": "core-libs",
@@ -389,6 +432,7 @@
   {
     "id": "JDK-8279776",
     "title": "~13% variation in Renaissance-Scrabble",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/runtime",
@@ -398,6 +442,7 @@
   {
     "id": "JDK-8279775",
     "title": "Some JFR tests do not accept 'GCLocker Initiated GC' as a valid GC cause",
+    "description": null,
     "priority": "4",
     "component": "hotspot",
     "subcomponent": "hotspot/gc",
@@ -407,6 +452,7 @@
   {
     "id": "JDK-8279772",
     "title": "[macos] test/jdk/java/awt/dnd/RemoveDropTargetCrashTest crashes with VoiceOver on macOS",
+    "description": null,
     "priority": "2",
     "component": "client-libs",
     "subcomponent": "client-libs/javax.accessibility",
@@ -416,6 +462,7 @@
   {
     "id": "JDK-8279770",
     "title": "Alignment of heap segments is not enforced correctly",
+    "description": null,
     "priority": "3",
     "component": "core-libs",
     "subcomponent": "core-libs",
@@ -425,6 +472,7 @@
   {
     "id": "JDK-8279769",
     "title": "Incorrect legacyMap.get in java.security.Provider after JDK-8276660",
+    "description": null,
     "priority": "4",
     "component": "security-libs",
     "subcomponent": "security-libs/java.security",
@@ -434,6 +482,7 @@
   {
     "id": "JDK-8279768",
     "title": "compiler/vectorapi/reshape/TestVectorCastAVX1.java crashes in assembler",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -443,6 +492,7 @@
   {
     "id": "JDK-8279766",
     "title": "[vector] assert(payload->is_object()) failed: expected 'object' value for scalar-replaced boxed vector but got: NULL",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -452,6 +502,7 @@
   {
     "id": "JDK-8279765",
     "title": "GHA: Print tests that are in error",
+    "description": null,
     "priority": "3",
     "component": "infrastructure",
     "subcomponent": "infrastructure/build",
@@ -461,6 +512,7 @@
   {
     "id": "JDK-8279763",
     "title": "Uneven work distribution when scanning heap roots in G1",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/gc",
@@ -470,6 +522,7 @@
   {
     "id": "JDK-8280670",
     "title": "Error \"Cannot read field \"sym\" because \"this.lvar[od]\" is null\" when compiling",
+    "description": null,
     "priority": "3",
     "component": "tools",
     "subcomponent": "tools/javac",
@@ -479,6 +532,7 @@
   {
     "id": "JDK-8280669",
     "title": "25 Null pointer dereference defect groups in 4 files",
+    "description": null,
     "priority": "2",
     "component": "hotspot",
     "subcomponent": "hotspot/runtime",
@@ -488,6 +542,7 @@
   {
     "id": "JDK-8280667",
     "title": "[PPC64, s390] frame size checks are not yet correct",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/runtime",
@@ -497,6 +552,7 @@
   {
     "id": "JDK-8280668",
     "title": "AArch64 \"core\" variant does not build after JDK-8270947",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -506,6 +562,7 @@
   {
     "id": "JDK-8280665",
     "title": "jdk/incubator/vector/Vector256ConversionTests.java crashes randomly with SVE",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -515,6 +572,7 @@
   {
     "id": "JDK-8280666",
     "title": "vmTestbase/vm/gc/containers/Combination05/TestDescription.java crashes verifying length of DCQS",
+    "description": null,
     "priority": "2",
     "component": "hotspot",
     "subcomponent": "hotspot/gc",
@@ -524,6 +582,7 @@
   {
     "id": "JDK-8280658",
     "title": "Access Bridge: Wrong frame position and hit test result on HiDPI display",
+    "description": null,
     "priority": "3",
     "component": "client-libs",
     "subcomponent": "client-libs/javax.accessibility",
@@ -533,6 +592,7 @@
   {
     "id": "JDK-8280646",
     "title": "[PPC64, s390] implement frame::is_interpreted_frame_valid checks",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/runtime",
@@ -542,6 +602,7 @@
   {
     "id": "JDK-8280645",
     "title": "[macosx] ignore xcodebuild warnings on M1",
+    "description": null,
     "priority": "3",
     "component": "infrastructure",
     "subcomponent": "infrastructure/build",
@@ -551,6 +612,7 @@
   {
     "id": "JDK-8280643",
     "title": "Synthetic cast causes generation of store barriers when using heap segments",
+    "description": null,
     "priority": "3",
     "component": "core-libs",
     "subcomponent": "core-libs",
@@ -560,6 +622,7 @@
   {
     "id": "JDK-8279767",
     "title": "C2: Receiver downcast is missing when inlining through method handle linkers",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -569,6 +632,7 @@
   {
     "id": "JDK-8279759",
     "title": "jdk/jfr/api/consumer/streaming/TestLatestEvent.java times out",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/jfr",
@@ -578,6 +642,7 @@
   {
     "id": "JDK-8279760",
     "title": "[BACKOUT] JDK-8278413: C2 crash when allocating array of size too large",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -587,6 +652,7 @@
   {
     "id": "JDK-8279761",
     "title": "AArch64: [vectorapi] VectorMaskLoadStoreTest.testMaskCast() test fail",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -596,6 +662,7 @@
   {
     "id": "JDK-8279762",
     "title": "C1: assert(false) failed: live_in set of first block must be empty",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -605,6 +672,7 @@
   {
     "id": "JDK-8279757",
     "title": "rmiregistry fails to start because SecurityManager is disabled",
+    "description": null,
     "priority": "3",
     "component": "core-libs",
     "subcomponent": "core-libs/java.rmi",
@@ -614,6 +682,7 @@
   {
     "id": "JDK-8279756",
     "title": "vmTestbase/nsk/jvmti/RedefineClasses/StressRedefine failed with EXCEPTION_ACCESS_VIOLATION at 0x000000000000000d",
+    "description": null,
     "priority": "2",
     "component": "hotspot",
     "subcomponent": "hotspot/jvmti",
@@ -623,6 +692,7 @@
   {
     "id": "JDK-8279755",
     "title": "JFR: One closed state per file or stream",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/jfr",
@@ -632,6 +702,7 @@
   {
     "id": "JDK-8279752",
     "title": "jstatd fails to start because SecurityManager is disabled",
+    "description": null,
     "priority": "3",
     "component": "core-svc",
     "subcomponent": "core-svc/tools",
@@ -641,6 +712,7 @@
   {
     "id": "JDK-8279754",
     "title": "java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/jfr",
@@ -650,6 +722,7 @@
   {
     "id": "JDK-8279753",
     "title": "RunThese24H.java failed with EXCEPTION_ACCESS_VIOLATION in __write_sample_info__",
+    "description": null,
     "priority": "2",
     "component": "hotspot",
     "subcomponent": "hotspot/jfr",
@@ -659,6 +732,7 @@
   {
     "id": "JDK-8279751",
     "title": "Enable X86 maskAll instruction pattern for 32 bit JVM.",
+    "description": null,
     "priority": "2",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -668,6 +742,7 @@
   {
     "id": "JDK-8279750",
     "title": "Intrinsics missing vzeroupper instruction",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -677,6 +752,7 @@
   {
     "id": "JDK-8279748",
     "title": "Shenandoah: TestHeapDump test failed",
+    "description": null,
     "priority": "2",
     "component": "hotspot",
     "subcomponent": "hotspot/gc",
@@ -686,6 +762,7 @@
   {
     "id": "JDK-8279746",
     "title": "ObjectInputStream methods invoking the OIF.CFG.getSerialFilterFactory() silent about error cases. ",
+    "description": null,
     "priority": "3",
     "component": "core-libs",
     "subcomponent": "core-libs/java.io",
@@ -695,6 +772,7 @@
   {
     "id": "JDK-8279741",
     "title": "C2 crash when allocating array of size too large",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -704,6 +782,7 @@
   {
     "id": "JDK-8279739",
     "title": "RunThese24H times out with \"java.lang.management.ThreadInfo.getLockName()\" is null",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/runtime",
@@ -713,6 +792,7 @@
   {
     "id": "JDK-8279740",
     "title": "[macos] SigningPackageTest is failed with runtime exception",
+    "description": null,
     "priority": "3",
     "component": "tools",
     "subcomponent": "tools/jpackage",
@@ -722,6 +802,7 @@
   {
     "id": "JDK-8279734",
     "title": "StringTokenizer(String, String, boolean) documentation bug",
+    "description": null,
     "priority": "4",
     "component": "core-libs",
     "subcomponent": "core-libs/java.util",
@@ -731,6 +812,7 @@
   {
     "id": "JDK-8280910",
     "title": "Update openjdk project in jcheck to \"jdk-updates\" for jdk18u",
+    "description": "The openjdk project in jcheck should be changed to \"jdk-updates\" for jdk18u",
     "priority": "3",
     "component": "infrastructure",
     "subcomponent": "infrastructure/build",
@@ -740,6 +822,7 @@
   {
     "id": "JDK-8280671",
     "title": "Temporarily disable Unix domain sockets in Windows PipeImpl",
+    "description": null,
     "priority": "3",
     "component": "core-libs",
     "subcomponent": "core-libs/java.nio",
@@ -749,6 +832,7 @@
   {
     "id": "JDK-8280654",
     "title": "jdk/jfr/jmx/streaming/TestMaxSize.java Expected only one or two chunks",
+    "description": null,
     "priority": "4",
     "component": "hotspot",
     "subcomponent": "hotspot/jfr",
@@ -758,6 +842,7 @@
   {
     "id": "JDK-8280652",
     "title": "RunThese30M fails \"assert(_class_unload ? true : ((((JfrTraceIdBits::load(class_loader_klass)) & ((1 << 4) << 8)) != 0))) failed: invariant\"",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/jfr",
@@ -767,6 +852,7 @@
   {
     "id": "JDK-8280650",
     "title": "PPC64 debug builds fail with \"untested: RangeCheckStub: predicate_failed_trap_id\"",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -776,6 +862,7 @@
   {
     "id": "JDK-8280638",
     "title": "timeouts in test  java/time/test/java/time/format/TestZoneTextPrinterParser.java",
+    "description": null,
     "priority": "3",
     "component": "core-libs",
     "subcomponent": "core-libs/java.time",
@@ -785,6 +872,7 @@
   {
     "id": "JDK-8280634",
     "title": "jdk.jpackage/share/native/applauncher/JvmLauncher.cpp fails to build with GCC 6.3.0",
+    "description": null,
     "priority": "3",
     "component": "tools",
     "subcomponent": "tools/jpackage",
@@ -794,6 +882,7 @@
   {
     "id": "JDK-8280633",
     "title": "[REDO] VM Exit does not abort concurrent mark",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/gc",
@@ -803,6 +892,7 @@
   {
     "id": "JDK-8280631",
     "title": "C2: assert(is_Loop()) failed: invalid node class: Region",
+    "description": null,
     "priority": "2",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -812,6 +902,7 @@
   {
     "id": "JDK-8280628",
     "title": "ExceptionInInitializerError: improve handling of exceptions in user-provided taglets",
+    "description": null,
     "priority": "3",
     "component": "tools",
     "subcomponent": "tools/javadoc(tool)",
@@ -821,6 +912,7 @@
   {
     "id": "JDK-8280625",
     "title": "Method linking fails with guarantee(mh->adapter() != NULL) failed: Adapter blob must already exist!",
+    "description": null,
     "priority": "2",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -830,6 +922,7 @@
   {
     "id": "JDK-8280623",
     "title": "Preserve result in native wrapper with +UseHeavyMonitors",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/runtime",
@@ -839,6 +932,7 @@
   {
     "id": "JDK-8280621",
     "title": "ARM32: several vector test failures for ASHR",
+    "description": null,
     "priority": "2",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -848,6 +942,7 @@
   {
     "id": "JDK-8280620",
     "title": "jdk/jfr/api/recording/time/TestTimeMultiple.java failed with \"RuntimeException: getStopTime() > afterStop\"",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/jfr",
@@ -857,6 +952,7 @@
   {
     "id": "JDK-8279781",
     "title": "DocTrees.getDocCommentTree should be specified as idempotent",
+    "description": null,
     "priority": "4",
     "component": "tools",
     "subcomponent": "tools/javadoc(tool)",
@@ -866,6 +962,7 @@
   {
     "id": "JDK-8279779",
     "title": "javac tries to compile a file twice via PackageElement.getEnclosedElements",
+    "description": null,
     "priority": "3",
     "component": "tools",
     "subcomponent": "tools/javac",
@@ -875,6 +972,7 @@
   {
     "id": "JDK-8279764",
     "title": "two microbenchmarks tests fail \"assert(!jvms->method()->has_exception_handlers()) failed: no exception handler expected\" after JDK-8275638",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -884,6 +982,7 @@
   {
     "id": "JDK-8279758",
     "title": "C2: Bad AD file when matching SqrtF with UseSSE=0",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -893,6 +992,7 @@
   {
     "id": "JDK-8279745",
     "title": "Deserialization filter and filter factory property error reporting under specified",
+    "description": null,
     "priority": "3",
     "component": "core-libs",
     "subcomponent": "core-libs/java.io:serialization",
@@ -902,6 +1002,7 @@
   {
     "id": "JDK-8279744",
     "title": "JFR: JfrChunkWriter incorrectly handles int64_t chunk size as size_t",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/jfr",
@@ -911,6 +1012,7 @@
   {
     "id": "JDK-8279743",
     "title": "compiler/codegen/aes/TestAESMain.java failed with \"Error: invalid offset: -1434443640\" after 8273297",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -920,6 +1022,7 @@
   {
     "id": "JDK-8279742",
     "title": "[macos] accessibility frame is misplaced on a secondary monitor on macOS",
+    "description": null,
     "priority": "3",
     "component": "client-libs",
     "subcomponent": "client-libs/javax.accessibility",
@@ -929,6 +1032,7 @@
   {
     "id": "JDK-8279738",
     "title": "[macos] Screen reader reads SwingSet2 JTable row selection as null, dimmed row for last column",
+    "description": null,
     "priority": "3",
     "component": "client-libs",
     "subcomponent": "client-libs/javax.accessibility",
@@ -938,6 +1042,7 @@
   {
     "id": "JDK-8279737",
     "title": "SwingSet2 table demo does not have accessible description set for images",
+    "description": null,
     "priority": "3",
     "component": "client-libs",
     "subcomponent": "client-libs/demo",
@@ -947,6 +1052,7 @@
   {
     "id": "JDK-8279735",
     "title": "Hotspot C1 compiler crashes on Kotlin suspend fun with loop",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -956,6 +1062,7 @@
   {
     "id": "JDK-8279732",
     "title": "GraphKit::combine_exception_states fails with \"matching stack sizes\" assert",
+    "description": null,
     "priority": "2",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -965,6 +1072,7 @@
   {
     "id": "JDK-8279731",
     "title": "Inner loop of long loop nest runs for too few iterations",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -974,6 +1082,7 @@
   {
     "id": "JDK-8279733",
     "title": "2 jdk/jfr/api/consumer/streaming tests failed to attach",
+    "description": null,
     "priority": "4",
     "component": "hotspot",
     "subcomponent": "hotspot/jfr",
@@ -983,6 +1092,7 @@
   {
     "id": "JDK-8279729",
     "title": "Clarify the ModuleDescriptor.Version specification’s treatment of repeated punctuation characters",
+    "description": null,
     "priority": "4",
     "component": "core-libs",
     "subcomponent": "core-libs/java.lang.module",
@@ -992,6 +1102,7 @@
   {
     "id": "JDK-8279727",
     "title": "update --help-extra message to include default value of --finalization option",
+    "description": null,
     "priority": "3",
     "component": "tools",
     "subcomponent": "tools/launcher",
@@ -1001,6 +1112,7 @@
   {
     "id": "JDK-8279725",
     "title": "update jcmd GC.finalizer_info to list finalization status",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/runtime",
@@ -1010,6 +1122,7 @@
   {
     "id": "JDK-8279726",
     "title": "SuspendibleThreadSet::_suspend_all should be volatile/atomic",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/gc",
@@ -1019,6 +1132,7 @@
   {
     "id": "JDK-8279724",
     "title": "ClassCastException with no stack trace is thrown with -Xcomp in method handle invocation",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -1028,6 +1142,7 @@
   {
     "id": "JDK-8279723",
     "title": "test/jdk/jdk/jfr/api/consumer/TestHiddenMethod.java needs update for JEP 416",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/jfr",
@@ -1037,6 +1152,7 @@
   {
     "id": "JDK-8279722",
     "title": "Misc issues in foreign API javadoc",
+    "description": null,
     "priority": "4",
     "component": "core-libs",
     "subcomponent": "core-libs",
@@ -1046,6 +1162,7 @@
   {
     "id": "JDK-8279721",
     "title": "[macos] tools/jpackage tests timeout due to /usr/bin/osascript",
+    "description": null,
     "priority": "3",
     "component": "tools",
     "subcomponent": "tools/jpackage",
@@ -1055,6 +1172,7 @@
   {
     "id": "JDK-8279718",
     "title": "KeyStore:getAttributes() not returning unmodifiable Set",
+    "description": null,
     "priority": "2",
     "component": "security-libs",
     "subcomponent": "security-libs/java.security",
@@ -1064,6 +1182,7 @@
   {
     "id": "JDK-8279719",
     "title": "runtime/BootstrapMethod/BSMCalledTwice.java fails with release VMs after JDK-8262134",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -1073,6 +1192,7 @@
   {
     "id": "JDK-8279715",
     "title": "Document the -XX:+NeverActAsServerClassMachine flag",
+    "description": null,
     "priority": "4",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
@@ -1082,6 +1202,7 @@
   {
     "id": "JDK-8279714",
     "title": "Update the `java` tool specification with the --finalization option",
+    "description": null,
     "priority": "3",
     "component": "tools",
     "subcomponent": "tools/launcher",
@@ -1091,6 +1212,7 @@
   {
     "id": "JDK-6584403",
     "title": "Request to add a CA/CSR certificate cookbook to JSSE Reference Guide",
+    "description": "I've had to walk a few people through the procedure for how to generate certificates for SSL servers, and get them signed by CA's.  A cookbook would be a good addition to the JSSE Ref guide, or the certs3.html document.\n",
     "priority": "4",
     "component": "docs",
     "subcomponent": "docs/guides",
@@ -1100,6 +1222,7 @@
   {
     "id": "JDK-8279730",
     "title": "Incorrect behavior of FloatVector.withLane on x86",
+    "description": null,
     "priority": "3",
     "component": "hotspot",
     "subcomponent": "hotspot/compiler",
