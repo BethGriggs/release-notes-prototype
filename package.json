@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "fetchReleaseNotes.js",
+  "bin": {
+    "release-notes-prototype": "./fetchReleaseNotes.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,6 +1,6 @@
-/* This script is used to fetch OpenJDK release notes from the bugs.openjdk.org */ 
+#!/usr/bin/env node
 
-import fs from 'fs/promises';
+/* This script is used to fetch OpenJDK release notes from the bugs.openjdk.org */ 
 
 // parse the version from the command-line
 const version = process.argv[2];
@@ -37,6 +37,4 @@ for (let startAt = 0; startAt <= total + 50; startAt += 50) {
     });
  }
 
-fs.writeFile('release-notes.json', JSON.stringify(output, null, 2));
-// write the release notes to the file
-fs.writeFile(`RELEASE-NOTES-${version}.json`, JSON.stringify(output.sort(), null, 2));
+ console.log(JSON.stringify(output, null, 2));
