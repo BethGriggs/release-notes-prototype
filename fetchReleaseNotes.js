@@ -27,7 +27,6 @@ for (let startAt = 0; startAt <= total + 50; startAt += 50) {
             {
                 "id": issue.key,
                 "title": issue.fields.summary,
-                "description": issue.fields.description,
                 "priority": issue.fields.priority.id,
                 "component": issue.fields.components[0].name,
                 "subcomponent": `${issue.fields.components[0].name}${issue.fields.customfield_10008?.name ? '/' + issue.fields.customfield_10008?.name : ''}`,
@@ -36,8 +35,8 @@ for (let startAt = 0; startAt <= total + 50; startAt += 50) {
             }
         )
     });
- 
-}
+ }
 
+fs.writeFile('release-notes.json', JSON.stringify(output, null, 2));
 // write the release notes to the file
-fs.writeFile(`RELEASE-NOTES-${version}.json`, JSON.stringify(output, null, 2));
+fs.writeFile(`RELEASE-NOTES-${version}.json`, JSON.stringify(output.sort(), null, 2));
