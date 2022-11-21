@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
-import {
-  parseArgs
-} from "node:util";
+import { parseArgs } from "node:util";
 
 import fs from "node:fs";
 import path from "node:path";
@@ -18,7 +16,7 @@ export const options = {
   tag: {
     type: "string",
   },
-  output: {
+  filename: {
     type: "string",
   },
 };
@@ -26,7 +24,8 @@ export const options = {
 const {
   repository,
   baseTag,
-  tag
+  tag,
+  filename
 } = parseArgs({
   options
 }).values;
@@ -60,4 +59,4 @@ function isJDKIssue(line) {
   return regexp.test(line);
 }
 
-fs.writeFileSync(path.resolve(process.cwd(), `${tag}-commits.json`), JSON.stringify(JDK_ISSUES, null, 2));
+fs.writeFileSync(path.resolve(process.cwd(), `${filename}`), JSON.stringify(JDK_ISSUES, null, 2));
