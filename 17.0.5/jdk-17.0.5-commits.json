@@ -1,0 +1,1147 @@
+[
+  {
+    "id": "JDK-8287016",
+    "commit": "6850786f903333faec26b66fed28803f0b3cd60b",
+    "title": "8287016: Bump update version for OpenJDK: jdk-17.0.5"
+  },
+  {
+    "id": "JDK-8287202",
+    "commit": "9a4a6ab14d9553c7b654db1c5b534867f05ff459",
+    "title": "8287202: GHA: Add macOS aarch64 to the list of default platforms for workflow_dispatch event"
+  },
+  {
+    "id": "JDK-8240903",
+    "commit": "629754e743822e1ef03da21a3e0a0f86e238cd4d",
+    "title": "8240903: Add test to check that jmod hashes are reproducible"
+  },
+  {
+    "id": "JDK-8286114",
+    "commit": "fb86d402201ef3f0ed1de5c91bf9a13da7fe650a",
+    "title": "8286114: [test] show real exception in bomb call in sun/rmi/runtime/Log/checkLogging/CheckLogging.java"
+  },
+  {
+    "id": "JDK-8282477",
+    "commit": "041924ab32602bf0c77a50dfe33667866c5b6b37",
+    "title": "8282477: [x86, aarch64] vmassert(_last_Java_pc == NULL, \"already walkable\"); fails with async profiler"
+  },
+  {
+    "id": "JDK-8282467",
+    "commit": "2903d59a90c66481fd57dacb3341f3f3315f5be3",
+    "title": "8282467: add extra diagnostics for JDK-8268184"
+  },
+  {
+    "id": "JDK-8281628",
+    "commit": "c2d2dc726a69fc920b5059565d3d0546ba02d749",
+    "title": "8281628: KeyAgreement : generateSecret intermittently not resetting"
+  },
+  {
+    "id": "JDK-8282214",
+    "commit": "9c9c061a5001d27668b7261199a188b0d756be5b",
+    "title": "8282214: Upgrade JQuery to version 3.6.0"
+  },
+  {
+    "id": "JDK-8283597",
+    "commit": "3013100d5a631017d0024d52c1f4ecaaf5ebd54f",
+    "title": "8283597: [REDO] Invalid generic signature for redefined classes"
+  },
+  {
+    "id": "JDK-8280550",
+    "commit": "d16d4f1f05bc3fb50918c98427b76d9da3bce5ea",
+    "title": "8280550: SplittableRandom#nextDouble(double,double) can return result >= bound"
+  },
+  {
+    "id": "JDK-8280950",
+    "commit": "9a4f12d5cedf3ee6421f0ad8483b5586a2a8aecf",
+    "title": "8280950: RandomGenerator:NextDouble() default behavior non conformant after JDK-8280550 fix"
+  },
+  {
+    "id": "JDK-8281183",
+    "commit": "551b0270ad1aceb232b8b45a04ce5f2c0109cac3",
+    "title": "8281183: RandomGenerator:NextDouble() default behavior partially fixed by JDK-8280950"
+  },
+  {
+    "id": "JDK-8225122",
+    "commit": "4e45ac97ea0d5297abf2910733b5c72ed0493686",
+    "title": "8225122: Test AncestorResized.java fails when Windows desktop is scaled."
+  },
+  {
+    "id": "JDK-8287824",
+    "commit": "e7a37b6192bd73b585e136b802d0a51f4c83ceee",
+    "title": "8287824: The MTPerLineTransformValidation tests has a typo in the @run tag"
+  },
+  {
+    "id": "JDK-8264666",
+    "commit": "3ef9ce6c02784abe3b3b55e4d490554436bf5991",
+    "title": "8264666: Change implementation of safeAdd/safeMult in the LCMSImageLayout class"
+  },
+  {
+    "id": "JDK-8287107",
+    "commit": "0d0e4fbc7067f1f7f0ed6feceed771be03974488",
+    "title": "8287107: CgroupSubsystemFactory.setCgroupV2Path asserts with freezer controller"
+  },
+  {
+    "id": "JDK-8287741",
+    "commit": "7023eef9e3a2590858b3b91e1a3b7dba64390e82",
+    "title": "8287741: Fix of JDK-8287107 (unused cgv1 freezer controller) was incomplete"
+  },
+  {
+    "id": "JDK-8270090",
+    "commit": "2da3752e98fcb34da99e8fcf3e2eff5859cb5f36",
+    "title": "8270090: C2: LCM may prioritize CheckCastPP nodes over projections"
+  },
+  {
+    "id": "JDK-8285820",
+    "commit": "667582d02f92ae32a1420d503858f08c04f8a10a",
+    "title": "8285820: C2: LCM prioritizes locally dependent CreateEx nodes over projections after 8270090"
+  },
+  {
+    "id": "JDK-8159694",
+    "commit": "92d617fc7a8bdef2f10a63f82d8c4b34f27143fa",
+    "title": "8159694: HiDPI, Unity, java/awt/dnd/DropTargetEnterExitTest/MissedDragExitTest.java"
+  },
+  {
+    "id": "JDK-8284694",
+    "commit": "66cdd6eb367826168051772c9263e36913b44294",
+    "title": "8284694: Avoid evaluating SSLAlgorithmConstraints twice"
+  },
+  {
+    "id": "JDK-8172065",
+    "commit": "aa3d2f76a59bfe7ca606bf534c355b040ff60c82",
+    "title": "8172065: javax/swing/JTree/4908142/bug4908142.java The selected index should be \"aad\""
+  },
+  {
+    "id": "JDK-8283441",
+    "commit": "a081e4ade9aaafd85f09dfb1f24d79da00c93304",
+    "title": "8283441: C2: segmentation fault in ciMethodBlocks::make_block_at(int)"
+  },
+  {
+    "id": "JDK-8178969",
+    "commit": "292d90dc396615f9fe425bac9117145a1f0e1dfe",
+    "title": "8178969: [TESTBUG] Wrong reporting of gc/g1/humongousObjects/TestHeapCounters test."
+  },
+  {
+    "id": "JDK-8287073",
+    "commit": "cb8813346736a9f0b407146126837763a671a890",
+    "title": "8287073: NPE from CgroupV2Subsystem.getInstance()"
+  },
+  {
+    "id": "JDK-8287663",
+    "commit": "8563eeccf7245390d57818730fd651ad03f45e83",
+    "title": "8287663: Add a regression test for JDK-8287073"
+  },
+  {
+    "id": "JDK-8283849",
+    "commit": "19639855311a47ed532547743ea3873eb8b016d3",
+    "title": "8283849: AsyncGetCallTrace may crash JVM on guarantee"
+  },
+  {
+    "id": "JDK-8274517",
+    "commit": "dd7280fdf9d9476dada6d4533fafe0e45f9b2d43",
+    "title": "8274517: java/util/DoubleStreamSums/CompensatedSums.java fails with expected [true] but found [false]"
+  },
+  {
+    "id": "JDK-8281297",
+    "commit": "f8d3d4287c8c1660b139b5d93795c7648888c039",
+    "title": "8281297: TestStressG1Humongous fails with guarantee(is_range_uncommitted)"
+  },
+  {
+    "id": "JDK-8284686",
+    "commit": "cb415a13f8df46f3acc1a6b187c3208523ef7d76",
+    "title": "8284686: Interval of < 1 ms disables ExecutionSample events"
+  },
+  {
+    "id": "JDK-8282306",
+    "commit": "ad1852518f4b38bd36fa09e1614f38f148f22655",
+    "title": "8282306: os::is_first_C_frame(frame*) crashes on invalid link access"
+  },
+  {
+    "id": "JDK-8286869",
+    "commit": "83d442665e1ac5fa274eb25e390350fef1280aae",
+    "title": "8286869: unify os::dir_is_empty across posix platforms"
+  },
+  {
+    "id": "JDK-8283562",
+    "commit": "67ca42c5ddf24b8805ca2f9d85f8099822f11c61",
+    "title": "8283562: JDK-8282306 breaks gtests on zero"
+  },
+  {
+    "id": "JDK-8282538",
+    "commit": "66ccd22e8ded6cede713c3c4c86a0e33f58ce5e1",
+    "title": "8282538: PKCS11 tests fail on CentOS Stream 9"
+  },
+  {
+    "id": "JDK-8281569",
+    "commit": "1f8477537e31c11b23fc2e128a149aae4c9b1c52",
+    "title": "8281569: Create tests for Frame.setMinimumSize() method"
+  },
+  {
+    "id": "JDK-8282640",
+    "commit": "ed715363c4236cce184d8eca6fc148b3619dab1d",
+    "title": "8282640: Create a test for JDK-4740761"
+  },
+  {
+    "id": "JDK-8273115",
+    "commit": "29579f4763316cb1b0896ea12c4512a1ca6fecba",
+    "title": "8273115: CountedLoopEndNode::stride_con crash in debug build with -XX:+TraceLoopOpts"
+  },
+  {
+    "id": "JDK-8286429",
+    "commit": "4dd34b713fd8046b7f2d30fc821e27a0124bef36",
+    "title": "8286429: jpackageapplauncher build fails intermittently in Tier[45]"
+  },
+  {
+    "id": "JDK-8284675",
+    "commit": "e4d1d62091c45dcca960bea86eee5313f2bdd68e",
+    "title": "8284675: \"jpackage.exe\" creates application launcher without Windows Application Manfiest"
+  },
+  {
+    "id": "JDK-8285398",
+    "commit": "4b25717255e781647f00e121f4a4102c9b451157",
+    "title": "8285398: Cache the results of constraint checks"
+  },
+  {
+    "id": "JDK-8285696",
+    "commit": "6f4c27006d75ccca5c3916fdfa8de53aa70bd38c",
+    "title": "8285696: AlgorithmConstraints:permits not throwing IllegalArgumentException when 'alg'  is null"
+  },
+  {
+    "id": "JDK-8285301",
+    "commit": "7975c0ac8a130b2303f80d5201ea64460dcd0f9a",
+    "title": "8285301: C2: assert(!requires_atomic_access) failed: can't ensure atomicity"
+  },
+  {
+    "id": "JDK-8284883",
+    "commit": "50c0080689d7971162669d72cf5e21cfd3bc2321",
+    "title": "8284883: JVM crash: guarantee(sect->end() <= sect->limit()) failed: sanity on AVX512"
+  },
+  {
+    "id": "JDK-8287113",
+    "commit": "f1d3fa95701a10a7f3512968f5c02bb2c48bf507",
+    "title": "8287113: JFR: Periodic task thread uses period for method sampling events"
+  },
+  {
+    "id": "JDK-8285380",
+    "commit": "4d92532956e2502d3236a8df1f7d20f46073199c",
+    "title": "8285380: Fix typos in security"
+  },
+  {
+    "id": "JDK-8282778",
+    "commit": "1584ddc8975ab33f2f67a5fc1dca2bd82f666f83",
+    "title": "8282778: Create a regression test for JDK-4699544"
+  },
+  {
+    "id": "JDK-8079267",
+    "commit": "f5e1c3f87018aab4f7c5e76260d487409bed4c3d",
+    "title": "8079267: [TEST_BUG] Test java/awt/Frame/MiscUndecorated/RepaintTest.java fails"
+  },
+  {
+    "id": "JDK-8282046",
+    "commit": "3b8f43e532628c3eb9ddde2761244fd18c89fde3",
+    "title": "8282046: Create a regression test for JDK-8000326"
+  },
+  {
+    "id": "JDK-8284521",
+    "commit": "d798aa2a4ffc72fe130296c2e25eb959017608a1",
+    "title": "8284521: Write an automated regression test for RFE 4371575"
+  },
+  {
+    "id": "JDK-8274597",
+    "commit": "9f5701896f2aee25c94cbb6bddfff1153b46544a",
+    "title": "8274597: Some of the dnd tests time out and fail intermittently"
+  },
+  {
+    "id": "JDK-8028998",
+    "commit": "9f5701896f2aee25c94cbb6bddfff1153b46544a",
+    "title": "8028998: [TEST_BUG] [macosx] java/awt/dnd/DropTargetEnterExitTest/MissedDragExitTest.java failed"
+  },
+  {
+    "id": "JDK-8265360",
+    "commit": "e0750eb79c0faae4631828a3a69d253cfa3650df",
+    "title": "8265360: several compiler/whitebox tests fail with \"private compiler.whitebox.SimpleTestCaseHelper(int) must be compiled\""
+  },
+  {
+    "id": "JDK-8282555",
+    "commit": "b91c4922e66e6cd5e92232f51cb0783e47f4c443",
+    "title": "8282555: Missing memory edge when spilling MoveF2I, MoveD2L etc"
+  },
+  {
+    "id": "JDK-8286638",
+    "commit": "c1e544fe0f4fa9d8818bd2ec7a3b743677865a41",
+    "title": "8286638: C2: CmpU needs to do more precise over/underflow analysis"
+  },
+  {
+    "id": "JDK-8284367",
+    "commit": "b7d808e96b68e1a648a74b5c1666304f58c347a0",
+    "title": "8284367: JQuery UI upgrade from 1.12.1 to 1.13.1"
+  },
+  {
+    "id": "JDK-8286211",
+    "commit": "440311800105c8a521b134426b1b465923a761e9",
+    "title": "8286211: Update PCSC-Lite for Suse Linux to 1.9.5"
+  },
+  {
+    "id": "JDK-8285081",
+    "commit": "a4110857993d733c1b26b9285c2edf7b5851141b",
+    "title": "8285081: Improve XPath operators count accuracy"
+  },
+  {
+    "id": "JDK-8283457",
+    "commit": "a2be28daca7b67635d0d1ddac770c8b7b8309529",
+    "title": "8283457: [macos] libpng build failures with Xcode13.3"
+  },
+  {
+    "id": "JDK-8288303",
+    "commit": "72603ffc6957c74698b1719d5ef688e55cf8eef0",
+    "title": "8288303: C1: Miscompilation due to broken Class.getModifiers intrinsic"
+  },
+  {
+    "id": "JDK-8288754",
+    "commit": "68456bb248378da2ada5ecb6de92302988115b7c",
+    "title": "8288754: GCC 12 fails to build zReferenceProcessor.cpp"
+  },
+  {
+    "id": "JDK-8286582",
+    "commit": "6f0f8429e0510533ad1169f6ff54bf3a66b21bc6",
+    "title": "8286582: Build fails on macos aarch64 when using --with-zlib=bundled"
+  },
+  {
+    "id": "JDK-8211002",
+    "commit": "270a4740c88a136e34dc4e6a0c3db3f1729ccb38",
+    "title": "8211002: test/jdk/java/lang/Math/PowTests.java skips testing for non-corner-case values"
+  },
+  {
+    "id": "JDK-8282937",
+    "commit": "d90fd6f8112093bc69a8ef5c8ab535dadae500a7",
+    "title": "8282937: Write a regression test for JDK-4820080"
+  },
+  {
+    "id": "JDK-8279622",
+    "commit": "47e478d6de40038d48290ac1b64a4957a77a397a",
+    "title": "8279622: C2: miscompilation of map pattern as a vector reduction"
+  },
+  {
+    "id": "JDK-8286870",
+    "commit": "3269cec1d49e858fd5bef7a5a7d6a41ccdb9a6bc",
+    "title": "8286870: Memory leak with RepeatCompilation"
+  },
+  {
+    "id": "JDK-8280696",
+    "commit": "dd7ab3d7fc7ab65e52c7774275c6ef213265a85e",
+    "title": "8280696: C2 compilation hits assert(is_dominator(c, n_ctrl)) failed"
+  },
+  {
+    "id": "JDK-8286177",
+    "commit": "caceaba5594606023ea4eb8d99698243be5b76b8",
+    "title": "8286177: C2: \"failed: non-reduction loop contains reduction nodes\" assert failure"
+  },
+  {
+    "id": "JDK-8287091",
+    "commit": "2e2e891db8a8f9c71fb739fd936d428a2b1ed169",
+    "title": "8287091: aarch64 : guarantee(val < (1ULL << nbits)) failed: Field too big for insn"
+  },
+  {
+    "id": "JDK-8285923",
+    "commit": "1ae5ba5539717b7ea22f0d765744382e366c38f9",
+    "title": "8285923: [REDO] JDK-8285802 AArch64: Consistently handle offsets in MacroAssembler as 64-bit quantities"
+  },
+  {
+    "id": "JDK-8271078",
+    "commit": "25059b286d4a0026eb79942f96707d443ab9e65c",
+    "title": "8271078: jdk/incubator/vector/Float128VectorTests.java failed a subtest"
+  },
+  {
+    "id": "JDK-8287223",
+    "commit": "831b3b8adf3210d59770c2d853db999f01f96b4e",
+    "title": "8287223: C1: Inlining attempt through MH::invokeBasic() with null receiver"
+  },
+  {
+    "id": "JDK-8287672",
+    "commit": "42e3184f88b5039663207d25be4250bb6308be29",
+    "title": "8287672: jtreg test com/sun/jndi/ldap/LdapPoolTimeoutTest.java fails intermittently in nightly run"
+  },
+  {
+    "id": "JDK-8287366",
+    "commit": "bbe8c3421ccb4a4e2d22a9f6cc13f96d20a73589",
+    "title": "8287366: Improve test failure reporting in GHA"
+  },
+  {
+    "id": "JDK-8289197",
+    "commit": "0ea78e56d86badb2e0cf831b65059fe3b1c0ad1d",
+    "title": "8289197: [17u] Push of backport of 8286177 did not remove assertion"
+  },
+  {
+    "id": "JDK-8284956",
+    "commit": "1675370076dbd069fd9ae16043ee6d5e02fd36b2",
+    "title": "8284956: Potential leak awtImageData/color_data when initializes X11GraphicsEnvironment"
+  },
+  {
+    "id": "JDK-8284680",
+    "commit": "f044785fa9914f5d6293940fff2bf7dc8e03c1dc",
+    "title": "8284680: sun.font.FontConfigManager.getFontConfig() leaks charset"
+  },
+  {
+    "id": "JDK-8287396",
+    "commit": "201dad41d7ce5424cecd78794f6592b922ee1872",
+    "title": "8287396: LIR_Opr::vreg_number() and data() can return negative number"
+  },
+  {
+    "id": "JDK-8288467",
+    "commit": "4c96224b5fa25d28caf9e405df69bc854d56317f",
+    "title": "8288467: remove memory_operand assert for spilled instructions"
+  },
+  {
+    "id": "JDK-8282936",
+    "commit": "b0af5e5236c9a5ce1bfa1f2160f6d9164049138c",
+    "title": "8282936: Write a regression test for JDK-4615365"
+  },
+  {
+    "id": "JDK-8284294",
+    "commit": "23fc8605d30749ab4010998a45316c015455851b",
+    "title": "8284294: Create an automated regression test for RFE 4138746"
+  },
+  {
+    "id": "JDK-8284944",
+    "commit": "180f3d99708b3eafb3897202521ebf51726c9d3d",
+    "title": "8284944: assert(cnt++ < 40) failed: infinite cycle in loop optimization"
+  },
+  {
+    "id": "JDK-8281181",
+    "commit": "437c634b61c277e6af6efd243399178dd44d7126",
+    "title": "8281181: Do not use CPU Shares to compute active processor count"
+  },
+  {
+    "id": "JDK-8256844",
+    "commit": "774213fd32e61c753b48ab648cc4dd82fc56c19f",
+    "title": "8256844: Make NMT late-initializable"
+  },
+  {
+    "id": "JDK-8278067",
+    "commit": "7f40f1659751097aa6ac2248fdcddee942cf8a58",
+    "title": "8278067: Make HttpURLConnection default keep alive timeout configurable"
+  },
+  {
+    "id": "JDK-8286625",
+    "commit": "f73037d9ae9073c50262aa4f025dbf6c033698df",
+    "title": "8286625: C2 fails with assert(!n->is_Store() && !n->is_LoadStore()) failed: no node with a side effect"
+  },
+  {
+    "id": "JDK-8287432",
+    "commit": "d3354af99f10a9cbf3debd101f84c419ae756248",
+    "title": "8287432: C2: assert(tn->in(0) != __null) failed: must have live top node"
+  },
+  {
+    "id": "JDK-8288360",
+    "commit": "a6c02bd401253d3281fd839a2176d521c8103032",
+    "title": "8288360: CI: ciInstanceKlass::implementor() is not consistent for well-known classes"
+  },
+  {
+    "id": "JDK-8287917",
+    "commit": "7aeba377f112270590cac074c8a6ad4f74431091",
+    "title": "8287917: System.loadLibrary does not work on Big Sur if JDK is built with macOS SDK 10.15 and earlier"
+  },
+  {
+    "id": "JDK-8269039",
+    "commit": "130551668944ec9846ccaf5e5aa07cf79f9ccd0b",
+    "title": "8269039: Disable SHA-1 Signed JARs"
+  },
+  {
+    "id": "JDK-8276546",
+    "commit": "a5e273d8c18f7411205e9e358aab1c8cf3c2be17",
+    "title": "8276546: [IR Framework] Whitelist and ignore CompileThreshold"
+  },
+  {
+    "id": "JDK-8289569",
+    "commit": "01217e1c6c0af8389409455ea0e39540f2354e1b",
+    "title": "8289569: [test] java/lang/ProcessBuilder/Basic.java fails on Alpine/musl"
+  },
+  {
+    "id": "JDK-8286277",
+    "commit": "363a8ffdaf1400af0511fa596a574a48d6a5bd9f",
+    "title": "8286277: CDS VerifyError when calling clone() on object array"
+  },
+  {
+    "id": "JDK-8287735",
+    "commit": "ab90ac38225c67c4ea9d5b3fe42c3a2b94f286b8",
+    "title": "8287735: Provide separate event category for dll operations"
+  },
+  {
+    "id": "JDK-8284977",
+    "commit": "3ad144510d2104e3de8bae1e53d2fc856d862639",
+    "title": "8284977: MetricsTesterCgroupV2.getLongValueEntryFromFile fails when named value doesn't exist"
+  },
+  {
+    "id": "JDK-8289477",
+    "commit": "db2010b18d4077b99044691ea102d6f17c0289db",
+    "title": "8289477: Memory corruption with CPU_ALLOC, CPU_FREE on muslc"
+  },
+  {
+    "id": "JDK-8278612",
+    "commit": "25b75964eb2fcdcacd8fbdd21a42b8a3864f884e",
+    "title": "8278612: [macos] test/jdk/java/awt/dnd/RemoveDropTargetCrashTest crashes with VoiceOver on macOS"
+  },
+  {
+    "id": "JDK-8286266",
+    "commit": "05b94006af524ece68cf22c6657d1c857c3ef7db",
+    "title": "8286266: [macos] Voice over moving JTable column to be the first column JVM crashes"
+  },
+  {
+    "id": "JDK-8278609",
+    "commit": "a4642ae2021f2e60ed5ec49a69077ed0a2c6dbcd",
+    "title": "8278609: [macos] accessibility frame is misplaced on a secondary monitor on macOS"
+  },
+  {
+    "id": "JDK-8289799",
+    "commit": "ad7fab5b19cb92c06ea5b740eddc6f233966a8a8",
+    "title": "8289799: Build warning in methodData.cpp memset zero-length parameter"
+  },
+  {
+    "id": "JDK-8254318",
+    "commit": "0263abac5093e151c8884d2cac15d13cd545ebb4",
+    "title": "8254318: Remove .hgtags"
+  },
+  {
+    "id": "JDK-8289697",
+    "commit": "e64282173d91b28b07f0ac5d427c3e84759f691a",
+    "title": "8289697: buffer overflow in MTLVertexCache.m: MTLVertexCache_AddGlyphQuad"
+  },
+  {
+    "id": "JDK-8280863",
+    "commit": "204e67a7adedc5ff8ed6dbe1da7aa1397c9beb38",
+    "title": "8280863: Update build README to reflect that MSYS2 is supported"
+  },
+  {
+    "id": "JDK-8287895",
+    "commit": "00074c0f1fcaade8d491518fd360531c6ac16d86",
+    "title": "8287895: Some langtools tests fail on msys2"
+  },
+  {
+    "id": "JDK-8286573",
+    "commit": "a391032cc259cc9963f7931d1714c630c4642083",
+    "title": "8286573: Remove the unnecessary method Attr#attribTopLevel and its usage"
+  },
+  {
+    "id": "JDK-8287724",
+    "commit": "2e21c87fac8d60c3c7ed7b2d0afae9abfc110359",
+    "title": "8287724: Fix various issues with msys2"
+  },
+  {
+    "id": "JDK-8287896",
+    "commit": "882b5f573a89254d2a3338ef4672014046de91e2",
+    "title": "8287896: PropertiesTest.sh fail on msys2"
+  },
+  {
+    "id": "JDK-8272352",
+    "commit": "011b96c37e694aca5ee82277d0634b843320d8f6",
+    "title": "8272352: Java launcher can not parse Chinese character when system locale is set to UTF-8"
+  },
+  {
+    "id": "JDK-8287902",
+    "commit": "292e6bb71f77ed1ba7ff7f75b0150e3e1076a63d",
+    "title": "8287902: UnreadableRB case in MissingResourceCauseTest is not working reliably on Windows"
+  },
+  {
+    "id": "JDK-8288599",
+    "commit": "a8e7d8f9a68c94905db3426c635c7e0ef6c60f03",
+    "title": "8288599: com/sun/management/OperatingSystemMXBean/TestTotalSwap.java: Expected total swap size ... but getTotalSwapSpaceSize returned ..."
+  },
+  {
+    "id": "JDK-8290004",
+    "commit": "ccc4732eeb706980d2f7f92aec3835f60d146126",
+    "title": "8290004: [PPC64] JfrGetCallTrace: assert(_pc != nullptr) failed: must have PC"
+  },
+  {
+    "id": "JDK-8289856",
+    "commit": "48d1d419b47c456444bd807c6c8cb7e334af09d0",
+    "title": "8289856: [PPC64] SIGSEGV in C2Compiler::init_c2_runtime() after JDK-8289060"
+  },
+  {
+    "id": "JDK-8290082",
+    "commit": "528693c991da80f8aedc4dd8639ed2898fa6b503",
+    "title": "8290082: [PPC64] ZGC C2 load barrier stub needs to preserve vector registers"
+  },
+  {
+    "id": "JDK-8289147",
+    "commit": "a087c51dfa55ad2f51715feba01a28526ede1e3d",
+    "title": "8289147: unify os::infinite_sleep on posix platforms"
+  },
+  {
+    "id": "JDK-8274434",
+    "commit": "b7ea51fd021c7295e17ef0f500a4bef11a8bcdb3",
+    "title": "8274434: move os::get_default_process_handle and os::dll_lookup to os_posix for POSIX platforms"
+  },
+  {
+    "id": "JDK-8287906",
+    "commit": "881ff368ceaff83ae78b1a17896c1ee45524bc84",
+    "title": "8287906: Rewrite of GitHub Actions (GHA) sanity tests"
+  },
+  {
+    "id": "JDK-8288003",
+    "commit": "d755049a96289bfbe417bdbdd014b01f1e67ab76",
+    "title": "8288003: log events for os::dll_unload"
+  },
+  {
+    "id": "JDK-8273040",
+    "commit": "4bab0ebf8c0330c8be1546a1f1914f725f03b58a",
+    "title": "8273040: Turning off JpAllowDowngrades (or Upgrades)"
+  },
+  {
+    "id": "JDK-8272815",
+    "commit": "100c802c6e4e38968f59fc59cc0eddf06e11b9f0",
+    "title": "8272815: jpackage --type rpm produces an error: Invalid or unsupported type: [null]"
+  },
+  {
+    "id": "JDK-8282407",
+    "commit": "d3b1956c1e67abd33e113a65b04736ae566b5882",
+    "title": "8282407: Missing ')' in MacResources.properties"
+  },
+  {
+    "id": "JDK-8284014",
+    "commit": "fc6fa1c3fd926fdd532f22027b41029364f8012e",
+    "title": "8284014: Menu items with submenus in JPopupMenu are not spoken on macOS"
+  },
+  {
+    "id": "JDK-8288499",
+    "commit": "bebb61224b163a70d79392e41ede4e61dbb04288",
+    "title": "8288499: Restore cancel-in-progress in GHA"
+  },
+  {
+    "id": "JDK-8285097",
+    "commit": "4f79e18537d6c25daf4dbe8c8d4972e744621ea9",
+    "title": "8285097: Duplicate XML keys in XPATHErrorResources.java and XSLTErrorResources.java"
+  },
+  {
+    "id": "JDK-8274856",
+    "commit": "9120f28d972c1d1a2a7042fde535b02ed292f8f4",
+    "title": "8274856: Failing jpackage tests with fastdebug/release build"
+  },
+  {
+    "id": "JDK-8277429",
+    "commit": "aafb815658a7c9d7c7f1dcf0bfebaa386932a128",
+    "title": "8277429: Conflicting jpackage static library name"
+  },
+  {
+    "id": "JDK-8282280",
+    "commit": "02215ff8f6f3402fe66315d7e5e9648dea13219d",
+    "title": "8282280: Update Xerces to Version 2.12.2"
+  },
+  {
+    "id": "JDK-8280233",
+    "commit": "bd7766321b2530d77835ca77e4b819cee6831a3f",
+    "title": "8280233: Temporarily disable Unix domain sockets in Windows PipeImpl"
+  },
+  {
+    "id": "JDK-8290000",
+    "commit": "c929865666247c62e1d0da70182ea4abed95a5af",
+    "title": "8290000: Bump macOS GitHub actions to macOS 11"
+  },
+  {
+    "id": "JDK-8271344",
+    "commit": "1ee3e051addad950afb72f3cd1dea6b40a5eedfa",
+    "title": "8271344: Windows product version issue"
+  },
+  {
+    "id": "JDK-8276837",
+    "commit": "75b7aedf0c5c751750da0dd2b531ae36a2e6d675",
+    "title": "8276837: [macos]: Error when signing the additional launcher"
+  },
+  {
+    "id": "JDK-8278311",
+    "commit": "89d2c89c83aae0bcf2c1e8e23c6fec692bb37b06",
+    "title": "8278311: Debian packaging doesn't work"
+  },
+  {
+    "id": "JDK-8279370",
+    "commit": "dec16ad44fd92c35cf3f41d70ce1b9630a210971",
+    "title": "8279370: jdk.jpackage/share/native/applauncher/JvmLauncher.cpp fails to build with GCC 6.3.0"
+  },
+  {
+    "id": "JDK-8281535",
+    "commit": "c2f6e5283ea69abbb821884e1e2d78f78c617455",
+    "title": "8281535: Create a regression test for JDK-4670051"
+  },
+  {
+    "id": "JDK-8281745",
+    "commit": "3a57cc67246702763f2f8201d0e63424fec56f80",
+    "title": "8281745: Create a regression test for JDK-4514331"
+  },
+  {
+    "id": "JDK-8281988",
+    "commit": "00f2b3fa8c7ae18592f825a76ddb1df0d986316c",
+    "title": "8281988: Create a regression test for JDK-4618767"
+  },
+  {
+    "id": "JDK-8281738",
+    "commit": "c3aa29f009c9e01b739a5e9f76f141f88da6c55e",
+    "title": "8281738: Create a regression test for checking the 'Space' key activation of focused Button"
+  },
+  {
+    "id": "JDK-8286122",
+    "commit": "6a4b6220f8dc184f408f1295865ed0ad2e3710ca",
+    "title": "8286122: [macos]: App bundle cannot upload to Mac App Store due to info.plist embedded in java exe"
+  },
+  {
+    "id": "JDK-8287125",
+    "commit": "9f8e0d7238fb5890b52109ead1d9338fb659d2c7",
+    "title": "8287125: [macos] Multiple jpackage tests fail/timeout on same host"
+  },
+  {
+    "id": "JDK-8289486",
+    "commit": "8457dd23a6082ad42f2cfbb9c435db3146f144c5",
+    "title": "8289486: Improve XSLT XPath operators count efficiency"
+  },
+  {
+    "id": "JDK-8290020",
+    "commit": "fbaf069d2799d3f2165073d9af4f8c840e0113b3",
+    "title": "8290020: Deadlock in leakprofiler::emit_events during shutdown"
+  },
+  {
+    "id": "JDK-8278233",
+    "commit": "930be902d0952bf09c87233a9b7be30237cfe677",
+    "title": "8278233: [macos] tools/jpackage tests timeout due to /usr/bin/osascript"
+  },
+  {
+    "id": "JDK-8282007",
+    "commit": "6c53fadb6de136a31137b0d65a17a3c9e517d3bb",
+    "title": "8282007: Assorted enhancements to jpackage testing framework"
+  },
+  {
+    "id": "JDK-8277493",
+    "commit": "cfe1e9550143cb80ce612f1a7bd9e9d9f9e66b52",
+    "title": "8277493: [REDO] Quarantined jpackage apps are labeled as \"damaged\""
+  },
+  {
+    "id": "JDK-8272736",
+    "commit": "309f794a53af890cad4367b23ab4ae4cfb573f07",
+    "title": "8272736: [JVMCI] Add API for reading and writing JVMCI thread locals"
+  },
+  {
+    "id": "JDK-8255724",
+    "commit": "dae14b3540950e11df5700bcff3af8e5d359d9fc",
+    "title": "8255724: [XRender] the BlitRotateClippedArea test fails on Linux in the XR pipeline"
+  },
+  {
+    "id": "JDK-8017175",
+    "commit": "c406983e47a6fe8a45192bd52377ff1fba048711",
+    "title": "8017175: [TESTBUG] javax/swing/JPopupMenu/4634626/bug4634626.java sometimes failed on mac"
+  },
+  {
+    "id": "JDK-6854300",
+    "commit": "9d27716f615c269fdeda6975d5cbbece538a5e24",
+    "title": "6854300: [TEST_BUG] java/awt/event/MouseEvent/SpuriousExitEnter/SpuriousExitEnter_3.java fails in jdk6u14 & jdk7"
+  },
+  {
+    "id": "JDK-8169468",
+    "commit": "f185a190bc50641898c53f860f1d50ecaa9bc690",
+    "title": "8169468: NoResizeEventOnDMChangeTest.java fails because FS Window didn't receive all resizes!"
+  },
+  {
+    "id": "JDK-8282343",
+    "commit": "5d9546e1c2eb639c70a78f91689041c17895b438",
+    "title": "8282343: Create a regression test for JDK-4518432"
+  },
+  {
+    "id": "JDK-8282234",
+    "commit": "77c1e0a2e741819a5f6f88ffc83d0a8f1342010f",
+    "title": "8282234: Create a regression test for JDK-4532513"
+  },
+  {
+    "id": "JDK-8282548",
+    "commit": "3258b672d48b6baeaff91a207d3d26d5abc91a26",
+    "title": "8282548: Create a regression test for JDK-4330998"
+  },
+  {
+    "id": "JDK-8283087",
+    "commit": "de4792a3740ada2edfbb937d10a3f9a98438c3a5",
+    "title": "8283087: Create a test or JDK-4715503"
+  },
+  {
+    "id": "JDK-8284067",
+    "commit": "c402838c3a519ef03c8285afb2267dcb8961d275",
+    "title": "8284067: jpackage'd launcher reports non-zero exit codes with error prompt"
+  },
+  {
+    "id": "JDK-8273506",
+    "commit": "b6454bccd887aac78cbb7822a3b3004680458100",
+    "title": "8273506: java Robot API did the 'm' keypress and caused /awt/event/KeyEvent/KeyCharTest/KeyCharTest.html is timing out on macOS 12"
+  },
+  {
+    "id": "JDK-8289853",
+    "commit": "689a837f6427c88b5c49b5e7d3f7ce6922437d29",
+    "title": "8289853: Update HarfBuzz to 4.4.1"
+  },
+  {
+    "id": "JDK-8288781",
+    "commit": "612cca3897e2ae1a86b6dcb9f61154853271c0bd",
+    "title": "8288781: C1: LIR_OpVisitState::maxNumberOfOperands too small"
+  },
+  {
+    "id": "JDK-8282860",
+    "commit": "d48914256f712b1c23b9cd69ad185b033842362b",
+    "title": "8282860: Write a regression test for JDK-4164779"
+  },
+  {
+    "id": "JDK-7131823",
+    "commit": "3b4649d941c4bbf971f03319bf52cc77cd8b4b8d",
+    "title": "7131823: bug in GIFImageReader"
+  },
+  {
+    "id": "JDK-8283911",
+    "commit": "98f6737e83195525f9857bc32716992f7a3eba68",
+    "title": "8283911: DEFAULT_PROMOTED_VERSION_PRE not reset to 'ea' for jdk-17.0.4"
+  },
+  {
+    "id": "JDK-8264792",
+    "commit": "25ad9d6ba3862c73cb3ec44d3da0edaf18fc4178",
+    "title": "8264792: The NumberFormat for locale sq_XK formats price incorrectly."
+  },
+  {
+    "id": "JDK-8283723",
+    "commit": "6fa5281c6b7df007a89c0b6e8a7e268a06927540",
+    "title": "8283723: Update Visual Studio 2022 to version 17.1.0 for Oracle builds on Windows"
+  },
+  {
+    "id": "JDK-8283803",
+    "commit": "37c9cd1555484db9c47d97cb21aa3259519fb2fc",
+    "title": "8283803: Remove jtreg tag manual=yesno for java/awt/print/PrinterJob/PrintGlyphVectorTest.java and fix test"
+  },
+  {
+    "id": "JDK-8284898",
+    "commit": "37c9cd1555484db9c47d97cb21aa3259519fb2fc",
+    "title": "8284898: Enhance PassFailJFrame"
+  },
+  {
+    "id": "JDK-8282351",
+    "commit": "cd6f6596aee7e7e8631eec1d281c34ac8857d590",
+    "title": "8282351: jpackage does not work if class file has `$$` in the name on windows"
+  },
+  {
+    "id": "JDK-8284358",
+    "commit": "2a5a30b761eb2b502a23a3d587029e76fb919bb5",
+    "title": "8284358: Unreachable loop is not removed from C2 IR, leading to a broken graph"
+  },
+  {
+    "id": "JDK-8286314",
+    "commit": "186745e83f47eff6624a3d30f0a0b0c6199dcc6c",
+    "title": "8286314: Trampoline not created for far runtime targets outside small CodeCache"
+  },
+  {
+    "id": "JDK-8290246",
+    "commit": "a747955b7dac447875b70716013ac54fa68d167a",
+    "title": "8290246: test fails \"assert(init != __null) failed: initialization not found\""
+  },
+  {
+    "id": "JDK-8290334",
+    "commit": "2e12c18f0d267285225604f3b7620d632b63c6fa",
+    "title": "8290334: Update FreeType to 2.12.1"
+  },
+  {
+    "id": "JDK-8290417",
+    "commit": "27ffd83f6a95c28447ae416d4f043a8eca8862b6",
+    "title": "8290417: CDS cannot archive lamda proxy with useImplMethodHandle"
+  },
+  {
+    "id": "JDK-8270312",
+    "commit": "0b31a9f5679a8902f0c49b0c881b66c62b3773aa",
+    "title": "8270312: Error: Not a test or directory containing tests: java/awt/print/PrinterJob/XparColor.java"
+  },
+  {
+    "id": "JDK-8257534",
+    "commit": "11dddf15fb69a80c86f670a4a708d928e051ee54",
+    "title": "8257534: misc tests failed with \"NoClassDefFoundError: Could not initialize class java.util.concurrent.ThreadLocalRandom\""
+  },
+  {
+    "id": "JDK-8275689",
+    "commit": "7488823fbab63912ea88a8d338d842b538d99151",
+    "title": "8275689: [TESTBUG] Use color tolerance only for XRender in BlitRotateClippedArea test"
+  },
+  {
+    "id": "JDK-8269556",
+    "commit": "a6462223df1f3936de33ebe1d1956475bede8760",
+    "title": "8269556: sun/tools/jhsdb/JShellHeapDumpTest.java fails with RuntimeException 'JShellToolProvider' missing from stdout/stderr"
+  },
+  {
+    "id": "JDK-8280913",
+    "commit": "d52a8992127d0da28ffc2d7bf42a87dc76fa36eb",
+    "title": "8280913: Create a regression test for JRootPane.setDefaultButton() method"
+  },
+  {
+    "id": "JDK-8282789",
+    "commit": "11e8a91619fea3f58ad5f5c1d0c152a351984cb4",
+    "title": "8282789: Create a regression test for the JTree usecase of JDK-4618767"
+  },
+  {
+    "id": "JDK-8283493",
+    "commit": "488e6a355f92fa6602d5fd6454902176dce50d2f",
+    "title": "8283493: Create an automated regression test for RFE 4231298"
+  },
+  {
+    "id": "JDK-8283015",
+    "commit": "3822bbdb006962d0719d9a792113bba81c7d3a41",
+    "title": "8283015: Create a test for JDK-4715496"
+  },
+  {
+    "id": "JDK-8288992",
+    "commit": "b9749f41784977ce95a8e80873eceee16bcf254f",
+    "title": "8288992: AArch64: CMN should be handled the same way as CMP"
+  },
+  {
+    "id": "JDK-8283623",
+    "commit": "cbfb65495886856ccee8618b0f58de9675aeba5c",
+    "title": "8283623: Create an automated regression test for JDK-4525475"
+  },
+  {
+    "id": "JDK-8283621",
+    "commit": "016e5004571f48934e3d9011bf096a7126837dfc",
+    "title": "8283621: Write a regression test for CCC4400728"
+  },
+  {
+    "id": "JDK-8282933",
+    "commit": "17982d846d6750dc32552c07541959eef653e524",
+    "title": "8282933: Create a test for JDK-4529616"
+  },
+  {
+    "id": "JDK-8283507",
+    "commit": "64db633e9152dd54296e09963304312c361ad6b2",
+    "title": "8283507: Create a regression test for RFE 4287690"
+  },
+  {
+    "id": "JDK-8283245",
+    "commit": "fb82b73b8f607979fca56fa19907f59a0842393b",
+    "title": "8283245: Create a test for JDK-4670319"
+  },
+  {
+    "id": "JDK-8284535",
+    "commit": "7ac74ca21363e7448077d6305a6cfb1309252fd3",
+    "title": "8284535: Fix PrintLatinCJKTest.java test that is failing with Parse Exception"
+  },
+  {
+    "id": "JDK-8283712",
+    "commit": "7ac74ca21363e7448077d6305a6cfb1309252fd3",
+    "title": "8283712: Create a manual test framework class"
+  },
+  {
+    "id": "JDK-8223543",
+    "commit": "53cb0028b52e043515a677e6899f33b688a10243",
+    "title": "8223543: [TESTBUG] Regression test java/awt/Graphics2D/DrawString/LCDTextSrcEa.java has issues"
+  },
+  {
+    "id": "JDK-8283624",
+    "commit": "5885a8e67217afae318337df42694118701e90a8",
+    "title": "8283624: Create an automated regression test for RFE-4390885"
+  },
+  {
+    "id": "JDK-8291595",
+    "commit": "c430a9457698fd57a7926e6fab065a639ccfdeb4",
+    "title": "8291595: [17u] Delete files missed in backport of 8269039"
+  },
+  {
+    "id": "JDK-8289471",
+    "commit": "951fff5462051181cedd490f604d448e3fb085bc",
+    "title": "8289471: Issue in Initialization of keys in ErrorMsg.java and XPATHErrorResources.java"
+  },
+  {
+    "id": "JDK-8285617",
+    "commit": "91b5c0a39d818cd85ac99c7578c5f91b0aafee88",
+    "title": "8285617: Fix java/awt/print/PrinterJob/ImagePrinting/PrintARGBImage.java manual test"
+  },
+  {
+    "id": "JDK-8284077",
+    "commit": "6bfe87dc436bfe10e2a64e9e2ed7aaedfb425db4",
+    "title": "8284077: Create an automated test for JDK-4170173"
+  },
+  {
+    "id": "JDK-8285693",
+    "commit": "1fe8777f3b17f977286c573be92e6b09723faceb",
+    "title": "8285693: Create an automated test for JDK-4702199"
+  },
+  {
+    "id": "JDK-8280944",
+    "commit": "b2848515430a2a3fbb7cd3fd28bd313b097a8c0c",
+    "title": "8280944: Enable Unix domain sockets in Windows Selector notification mechanism"
+  },
+  {
+    "id": "JDK-8283277",
+    "commit": "bb31cd9af12cd4dbb7857b4779e600228677f74a",
+    "title": "8283277: ISO 4217 Amendment 171 Update"
+  },
+  {
+    "id": "JDK-8289549",
+    "commit": "9168aa252d32d48a3bda9a6e28e3215805fe60c5",
+    "title": "8289549: ISO 4217 Amendment 172 Update"
+  },
+  {
+    "id": "JDK-8288399",
+    "commit": "f74269cdaa6abcec463be378415049e688d51750",
+    "title": "8288399: MacOS debug symbol files not always deterministic in reproducible builds"
+  },
+  {
+    "id": "JDK-8292258",
+    "commit": "27057f84af7712dbe769caf804db6c55b2b58a81",
+    "title": "8292258: Bump update version for OpenJDK: jdk-17.0.4.1"
+  },
+  {
+    "id": "JDK-8292260",
+    "commit": "02fa4be6c4452ffa5fae8200024953e4ba1afd83",
+    "title": "8292260: [BACKOUT] JDK-8279219: [REDO] C2 crash when allocating array of size too large"
+  },
+  {
+    "id": "JDK-8283903",
+    "commit": "2c988d184291c4200659ee0e1e68294460c685d3",
+    "title": "8283903: GetContainerCpuLoad does not return the correct result in share mode"
+  },
+  {
+    "id": "JDK-8291633",
+    "commit": "92571e346582fe359a211eca0a8869ae96ee58f7",
+    "title": "8291633: Build failures with GCC 11, Alpine 3 due to incompatible casts from nullptr"
+  },
+  {
+    "id": "JDK-8289910",
+    "commit": "cb294d9ecf0767dbd0dd167222e1e7861e28be3b",
+    "title": "8289910: unify os::message_box across posix platforms"
+  },
+  {
+    "id": "JDK-8285730",
+    "commit": "e650bdcde02cb9781d073dd0ba003025e80b7a5c",
+    "title": "8285730: unify _WIN32_WINNT settings"
+  },
+  {
+    "id": "JDK-8289127",
+    "commit": "38fdbd43564f7a8de74fa701c856e923bdb3fca7",
+    "title": "8289127: Apache Lucene triggers: DEBUG MESSAGE: duplicated predicate failed which is impossible"
+  },
+  {
+    "id": "JDK-8279032",
+    "commit": "129484da3bd5ae1053b9275b7c706e908003e0b8",
+    "title": "8279032: compiler/loopopts/TestSkeletonPredicateNegation.java times out with -XX:TieredStopAtLevel < 4"
+  },
+  {
+    "id": "JDK-8288000",
+    "commit": "3d2d300bcda0ff5cfc67e8df4609499cb54dc32d",
+    "title": "8288000: compiler/loopopts/TestOverUnrolling2.java fails with release VMs"
+  },
+  {
+    "id": "JDK-8282947",
+    "commit": "70a51d482a1a72a74c07d7df25c7bbaf4fba5cb8",
+    "title": "8282947: JFR: Dump on shutdown live-locks in some conditions"
+  },
+  {
+    "id": "JDK-6782021",
+    "commit": "e3c178d6d87c9e0e2a75cddc72d802cf9124420e",
+    "title": "6782021: It is not possible to read local computer certificates with the SunMSCAPI provider"
+  },
+  {
+    "id": "JDK-8272417",
+    "commit": "2796eca91c45e28329a1017ed6f27fb1cae770f1",
+    "title": "8272417: ZGC: fastdebug build crashes when printing ClassLoaderData"
+  },
+  {
+    "id": "JDK-8284950",
+    "commit": "b30d962f27024448a43f2b45d30730b4d88626b8",
+    "title": "8284950: CgroupV1 detection code should consider memory.swappiness"
+  },
+  {
+    "id": "JDK-8227651",
+    "commit": "6d2cddf54b9e74fa15bc3579a4c4f9e841c94d12",
+    "title": "8227651: Tests fail with SSLProtocolException: Input record too big"
+  },
+  {
+    "id": "JDK-8212096",
+    "commit": "6d2cddf54b9e74fa15bc3579a4c4f9e841c94d12",
+    "title": "8212096: javax/net/ssl/ServerName/SSLEngineExplorerMatchedSNI.java failed intermittently due to SSLException: Tag mismatch"
+  },
+  {
+    "id": "JDK-8289695",
+    "commit": "d13038aa90a70ffd3db47c63f3f16117314a67d7",
+    "title": "8289695: [TESTBUG] TestMemoryAwareness.java fails on cgroups v2 and crun"
+  },
+  {
+    "id": "JDK-8287463",
+    "commit": "d3197e7628524d0838e0cbbbf261c7b6ab29d761",
+    "title": "8287463: JFR: Disable TestDevNull.java on Windows"
+  },
+  {
+    "id": "JDK-8288985",
+    "commit": "00445e86fdb0afb60cfd67fa0abb6d80ac393cd2",
+    "title": "8288985: P11TlsKeyMaterialGenerator should work with ChaCha20-Poly1305"
+  },
+  {
+    "id": "JDK-8290456",
+    "commit": "bf7e3bf070d0c063c85367746bde2292c66fb987",
+    "title": "8290456: remove os::print_statistics()"
+  },
+  {
+    "id": "JDK-8028265",
+    "commit": "6f2bbc4670c750ea2d81569d7bbfa3245171d164",
+    "title": "8028265: Add legacy tz tests to OpenJDK"
+  },
+  {
+    "id": "JDK-8275887",
+    "commit": "6bc6980a7d975dbe06b319bf6ac9625749663060",
+    "title": "8275887: jarsigner prints invalid digest/signature algorithm warnings if keysize is weak/disabled"
+  },
+  {
+    "id": "JDK-8292579",
+    "commit": "114f0c400548675bf2ecd2b3dbf10aeecda539d9",
+    "title": "8292579: (tz) Update Timezone Data to 2022c"
+  },
+  {
+    "id": "JDK-8282252",
+    "commit": "009488ee8e27c4430cb7721af71d3852f7aee56e",
+    "title": "8282252: Improve BigInteger/Decimal validation"
+  },
+  {
+    "id": "JDK-8285662",
+    "commit": "60c9b3822f2f9c0e07ba06c8e56b080a775631e9",
+    "title": "8285662: Better permission resolution"
+  },
+  {
+    "id": "JDK-8286077",
+    "commit": "48a853e20cff2bee5ec8b26acf10e175a27c3d17",
+    "title": "8286077: Wider MultiByte conversions"
+  },
+  {
+    "id": "JDK-8286526",
+    "commit": "183d43d38cdeedb5b8667359a32acb484850a2e9",
+    "title": "8286526: Improve NTLM support"
+  },
+  {
+    "id": "JDK-8287446",
+    "commit": "14113556aba9645aa770ff89e0d149d843c3d21e",
+    "title": "8287446: Enhance icon presentations"
+  },
+  {
+    "id": "JDK-8289366",
+    "commit": "65df81df6f8376004cd57e6d79267c6b3b85872d",
+    "title": "8289366: Improve HTTP/2 client usage"
+  },
+  {
+    "id": "JDK-8286910",
+    "commit": "a3097d41a1d27223d7dfc876b5d8684c13a1ee39",
+    "title": "8286910: Improve JNDI lookups"
+  },
+  {
+    "id": "JDK-8288508",
+    "commit": "38f6cbd5598a5747fa9b9fb4149470d29c15021b",
+    "title": "8288508: Enhance ECDSA usage"
+  },
+  {
+    "id": "JDK-8286511",
+    "commit": "e6bb02c842b843073d43ae7cd77f3c7a7eddc7a1",
+    "title": "8286511: Improve macro allocation"
+  },
+  {
+    "id": "JDK-8286519",
+    "commit": "8110660a55cc696fdba955ec7cf55cff0d145baa",
+    "title": "8286519: Better memory handling"
+  },
+  {
+    "id": "JDK-8286918",
+    "commit": "ff5418eff8c07be96005ca0d8477436643cc14dd",
+    "title": "8286918: Better HttpServer service"
+  },
+  {
+    "id": "JDK-8295056",
+    "commit": "0a6252780a862e6d5646a28c2b22a1c03eff37bf",
+    "title": "8295056: [17u] Remove designator DEFAULT_PROMOTED_VERSION_PRE=ea for release 17.0.5"
+  }
+]
