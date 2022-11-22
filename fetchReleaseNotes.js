@@ -69,7 +69,7 @@ for (let startAt = 0; startAt <= total + 50; startAt += 50) {
                 "backportOf": parent || null
             });
         } else {
-            console.log(issue.key + " is not in the commit list");
+            console.log(issue.key + " or " + parent + " is not in the commit list");
         }
     });
 }
