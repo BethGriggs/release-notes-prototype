@@ -4,7 +4,8 @@
   "description": "",
   "main": "fetchReleaseNotes.js",
   "bin": {
-    "release-notes-prototype": "./fetchReleaseNotes.js"
+    "fetch-commit-list": "./fetchCommitsList.js",
+    "fetch-release-notes": "./fetchReleaseNotes.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
