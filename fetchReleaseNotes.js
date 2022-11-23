@@ -66,7 +66,7 @@ for (let startAt = 0; startAt <= total + 50; startAt += 50) {
                 "subcomponent": `${issue.fields.components[0].name}${issue.fields.customfield_10008?.name ? '/' + issue.fields.customfield_10008?.name : ''}`,
                 "link": "https://bugs.openjdk.java.net/browse/" + issue.key,
                 "type": issue.fields.issuetype.name,
-                "backportOf": parent || null
+                "backportOf": parent || null,
             });
         } else {
             console.log(issue.key + " or " + parent + " is not in the commit list");
