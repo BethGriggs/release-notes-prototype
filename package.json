@@ -4,7 +4,7 @@
   "description": "",
   "main": "fetchReleaseNotes.js",
   "bin": {
-    "fetch-commit-list": "./fetchCommitsList.js",
+    "fetch-commit-list": "./fetchCommitList.js",
     "fetch-release-notes": "./fetchReleaseNotes.js"
   },
   "scripts": {

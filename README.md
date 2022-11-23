@@ -6,7 +6,7 @@ This repository contains two scripts that can be used to generate OpenJDK notes.
  
 * Node.js 18+
 
-## fetchCommitsList.js
+## fetchCommitList.js
 
 Uses the GitHub API to output the commits between two tags on a given repository. The output includes the JDK bug IDs where they can be determined. Output is written to a JSON file.
 
@@ -24,7 +24,7 @@ Uses the GitHub API to output the commits between two tags on a given repository
 ### Usage
 
 ```console 
-node fetchCommitsList.js --repository <repository> --baseTag <baseTag> --tag <tag> --filename <filename>
+node fetchCommitList.js --repository <repository> --baseTag <baseTag> --tag <tag> --filename <filename>
 ```
 
 ### Output
@@ -49,7 +49,7 @@ Uses the commit list to gather information from https://bugs.openjdk.org/ for th
 ### Parameters
 
 * `commitList`
-  * The JSON list of commits generated from `fetchCommitsList.js`.
+  * The JSON list of commits generated from `fetchCommitList.js`.
 * `version`
   * The OpenJDK fix version in the form used by Jira. Example: `17.0.5`.
 * `filename`
