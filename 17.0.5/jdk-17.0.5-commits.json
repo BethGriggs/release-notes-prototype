@@ -975,16 +975,6 @@
     "title": "8288399: MacOS debug symbol files not always deterministic in reproducible builds"
   },
   {
-    "id": "JDK-8292258",
-    "commit": "27057f84af7712dbe769caf804db6c55b2b58a81",
-    "title": "8292258: Bump update version for OpenJDK: jdk-17.0.4.1"
-  },
-  {
-    "id": "JDK-8292260",
-    "commit": "02fa4be6c4452ffa5fae8200024953e4ba1afd83",
-    "title": "8292260: [BACKOUT] JDK-8279219: [REDO] C2 crash when allocating array of size too large"
-  },
-  {
     "id": "JDK-8283903",
     "commit": "2c988d184291c4200659ee0e1e68294460c685d3",
     "title": "8283903: GetContainerCpuLoad does not return the correct result in share mode"

@@ -2050,26 +2050,6 @@
     "backportOf": null
   },
   {
-    "id": "JDK-8292469",
-    "title": "Bump update version for OpenJDK: jdk-17.0.4.1",
-    "priority": "4",
-    "component": "infrastructure",
-    "subcomponent": "infrastructure/build",
-    "link": "https://bugs.openjdk.java.net/browse/JDK-8292469",
-    "type": "Backport",
-    "backportOf": "JDK-8292258"
-  },
-  {
-    "id": "JDK-8292470",
-    "title": "[BACKOUT] JDK-8279219: [REDO] C2 crash when allocating array of size too large",
-    "priority": "1",
-    "component": "hotspot",
-    "subcomponent": "hotspot/compiler",
-    "link": "https://bugs.openjdk.java.net/browse/JDK-8292470",
-    "type": "Backport",
-    "backportOf": "JDK-8292260"
-  },
-  {
     "id": "JDK-8283911",
     "title": "DEFAULT_PROMOTED_VERSION_PRE not reset to 'ea' for jdk-17.0.4",
     "priority": "4",
