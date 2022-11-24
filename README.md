@@ -42,6 +42,8 @@ JSON array of commits and JDK issue IDs in the following format:
 ]
 ```
 
+Note that the same commit may reference multiple JDK issues.
+
 ##  fetchReleaseNotes.js
 
 Uses the commit list to gather information from https://bugs.openjdk.org/ for the supplied fix version.
