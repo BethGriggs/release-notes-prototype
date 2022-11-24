@@ -58,8 +58,7 @@ Uses the commit list to gather information from https://bugs.openjdk.org/ for th
 ### Usage
 
 ```console 
-node ./fetchReleaseNotes.js --commitList --version <fixVersion>
-<file> --filename <filename>
+node ./fetchReleaseNotes.js --commitList <filename> --version <fixVersion> --filename <filename>
 ```
 
 ### Output
