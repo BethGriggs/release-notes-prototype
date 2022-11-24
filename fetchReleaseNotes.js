@@ -11,15 +11,9 @@ import path from 'node:path';
 
 // parseArgs is used to parse command line arguments
 const options = {
-  commitList: {
-    type: 'string',
-  },
-  filename: {
-    type: 'string',
-  },
-  version: {
-    type: 'string',
-  },
+  commitList: { type: 'string', alias: 'c' },
+  filename: { type: 'string', alias: 'f' },
+  version: { type: 'string', alias: 'v' },
 };
 
 const { commitList, filename, version } = parseArgs({ options }).values;
