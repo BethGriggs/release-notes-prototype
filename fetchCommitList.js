@@ -34,6 +34,10 @@ console.log(`Fetching commits for ${repository} between ${baseTag} and ${tag}...
 console.log(`Fetching commits from ${githubQuery}`);
 const githubResponse = await fetch(githubQuery);
 const githubResponseJson = await githubResponse.json();
+if (!githubResponse.ok) {
+  console.error(githubResponseJson)
+  throw new Error(`Failed to fetch commits from ${githubQuery}`);
+}
 
 const JDK_ISSUES = [];
 
