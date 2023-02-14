@@ -230,14 +230,14 @@
     "backportOf": "JDK-8283441"
   },
   {
-    "id": "JDK-8178969",
-    "title": "8178969: [TESTBUG] Wrong reporting of gc/g1/humongousObjects/TestHeapCounters test.",
-    "priority": null,
-    "component": null,
-    "subcomponent": null,
-    "link": "https://bugs.openjdk.java.net/browse/JDK-8178969",
-    "type": null,
-    "backportOf": null
+    "id": "JDK-8288305",
+    "title": "[TESTBUG] Wrong reporting of gc/g1/humongousObjects/TestHeapCounters test.",
+    "priority": "5",
+    "component": "hotspot",
+    "subcomponent": "hotspot/gc",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8288305",
+    "type": "Backport",
+    "backportOf": "JDK-8178969"
   },
   {
     "id": "JDK-8288308",
@@ -1440,14 +1440,14 @@
     "backportOf": "JDK-8255724"
   },
   {
-    "id": "JDK-8017175",
-    "title": "8017175: [TESTBUG] javax/swing/JPopupMenu/4634626/bug4634626.java sometimes failed on mac",
-    "priority": null,
-    "component": null,
-    "subcomponent": null,
-    "link": "https://bugs.openjdk.java.net/browse/JDK-8017175",
-    "type": null,
-    "backportOf": null
+    "id": "JDK-8290932",
+    "title": "[TESTBUG] javax/swing/JPopupMenu/4634626/bug4634626.java sometimes failed on mac",
+    "priority": "4",
+    "component": "client-libs",
+    "subcomponent": "client-libs/javax.swing",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8290932",
+    "type": "Backport",
+    "backportOf": "JDK-8017175"
   },
   {
     "id": "JDK-8290935",
@@ -1700,14 +1700,14 @@
     "backportOf": "JDK-8257534"
   },
   {
-    "id": "JDK-8275689",
-    "title": "8275689: [TESTBUG] Use color tolerance only for XRender in BlitRotateClippedArea test",
-    "priority": null,
-    "component": null,
-    "subcomponent": null,
-    "link": "https://bugs.openjdk.java.net/browse/JDK-8275689",
-    "type": null,
-    "backportOf": null
+    "id": "JDK-8291609",
+    "title": "[TESTBUG] Use color tolerance only for XRender in BlitRotateClippedArea test",
+    "priority": "4",
+    "component": "client-libs",
+    "subcomponent": "client-libs/java.awt",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8291609",
+    "type": "Backport",
+    "backportOf": "JDK-8275689"
   },
   {
     "id": "JDK-8291611",
@@ -1840,14 +1840,14 @@
     "backportOf": "JDK-8283712"
   },
   {
-    "id": "JDK-8223543",
-    "title": "8223543: [TESTBUG] Regression test java/awt/Graphics2D/DrawString/LCDTextSrcEa.java has issues",
-    "priority": null,
-    "component": null,
-    "subcomponent": null,
-    "link": "https://bugs.openjdk.java.net/browse/JDK-8223543",
-    "type": null,
-    "backportOf": null
+    "id": "JDK-8291787",
+    "title": "[TESTBUG] Regression test java/awt/Graphics2D/DrawString/LCDTextSrcEa.java has issues",
+    "priority": "4",
+    "component": "client-libs",
+    "subcomponent": "client-libs/2d",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8291787",
+    "type": "Backport",
+    "backportOf": "JDK-8223543"
   },
   {
     "id": "JDK-8291833",
@@ -2080,14 +2080,14 @@
     "backportOf": "JDK-8212096"
   },
   {
-    "id": "JDK-8289695",
-    "title": "8289695: [TESTBUG] TestMemoryAwareness.java fails on cgroups v2 and crun",
-    "priority": null,
-    "component": null,
-    "subcomponent": null,
-    "link": "https://bugs.openjdk.java.net/browse/JDK-8289695",
-    "type": null,
-    "backportOf": null
+    "id": "JDK-8292962",
+    "title": "[TESTBUG] TestMemoryAwareness.java fails on cgroups v2 and crun",
+    "priority": "4",
+    "component": "core-svc",
+    "subcomponent": "core-svc",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8292962",
+    "type": "Backport",
+    "backportOf": "JDK-8289695"
   },
   {
     "id": "JDK-8293133",
