@@ -38,9 +38,11 @@ for (const commit of commits) {
     .find((issue) => issue.id === commit.id || issue.backportOf === commit.id);
 
   if (!releaseNote) {
+    const title = commit.title.replace(/^(\d+: )/, '');
+
     releaseNote = {
       id: commit.id,
-      title: commit.title,
+      title,
       priority: null,
       component: null,
       subcomponent: null,

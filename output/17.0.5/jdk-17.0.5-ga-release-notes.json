@@ -2151,7 +2151,7 @@
   },
   {
     "id": "JDK-8282252",
-    "title": "8282252: Improve BigInteger/Decimal validation",
+    "title": "Improve BigInteger/Decimal validation",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -2161,7 +2161,7 @@
   },
   {
     "id": "JDK-8285662",
-    "title": "8285662: Better permission resolution",
+    "title": "Better permission resolution",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -2171,7 +2171,7 @@
   },
   {
     "id": "JDK-8286077",
-    "title": "8286077: Wider MultiByte conversions",
+    "title": "Wider MultiByte conversions",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -2181,7 +2181,7 @@
   },
   {
     "id": "JDK-8286526",
-    "title": "8286526: Improve NTLM support",
+    "title": "Improve NTLM support",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -2191,7 +2191,7 @@
   },
   {
     "id": "JDK-8287446",
-    "title": "8287446: Enhance icon presentations",
+    "title": "Enhance icon presentations",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -2201,7 +2201,7 @@
   },
   {
     "id": "JDK-8289366",
-    "title": "8289366: Improve HTTP/2 client usage",
+    "title": "Improve HTTP/2 client usage",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -2211,7 +2211,7 @@
   },
   {
     "id": "JDK-8286910",
-    "title": "8286910: Improve JNDI lookups",
+    "title": "Improve JNDI lookups",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -2221,7 +2221,7 @@
   },
   {
     "id": "JDK-8288508",
-    "title": "8288508: Enhance ECDSA usage",
+    "title": "Enhance ECDSA usage",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -2231,7 +2231,7 @@
   },
   {
     "id": "JDK-8286511",
-    "title": "8286511: Improve macro allocation",
+    "title": "Improve macro allocation",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -2241,7 +2241,7 @@
   },
   {
     "id": "JDK-8286519",
-    "title": "8286519: Better memory handling",
+    "title": "Better memory handling",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -2251,7 +2251,7 @@
   },
   {
     "id": "JDK-8286918",
-    "title": "8286918: Better HttpServer service",
+    "title": "Better HttpServer service",
     "priority": null,
     "component": null,
     "subcomponent": null,

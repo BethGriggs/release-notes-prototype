@@ -1,7 +1,7 @@
 [
   {
     "id": "JDK-8239105",
-    "title": "8239105: Add exception for expiring Digicert root certificates to VerifyCACerts test",
+    "title": "Add exception for expiring Digicert root certificates to VerifyCACerts test",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -11,7 +11,7 @@
   },
   {
     "id": "JDK-8254081",
-    "title": "8254081: java/security/cert/PolicyNode/GetPolicyQualifiers.java fails due to an expired certificate",
+    "title": "java/security/cert/PolicyNode/GetPolicyQualifiers.java fails due to an expired certificate",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -141,7 +141,7 @@
   },
   {
     "id": "JDK-8244473",
-    "title": "8244473: Contextualize registration for JNDI",
+    "title": "Contextualize registration for JNDI",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -151,7 +151,7 @@
   },
   {
     "id": "JDK-8244543",
-    "title": "8244543: Enhanced handling of abstract classes",
+    "title": "Enhanced handling of abstract classes",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -171,7 +171,7 @@
   },
   {
     "id": "JDK-8250568",
-    "title": "8250568: Less ambiguous processing",
+    "title": "Less ambiguous processing",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -181,7 +181,7 @@
   },
   {
     "id": "JDK-8253799",
-    "title": "8253799: Make lists of normal filenames",
+    "title": "Make lists of normal filenames",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -191,7 +191,7 @@
   },
   {
     "id": "JDK-8261183",
-    "title": "8261183: Follow on to Make lists of normal filenames",
+    "title": "Follow on to Make lists of normal filenames",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -201,7 +201,7 @@
   },
   {
     "id": "JDK-8249906",
-    "title": "8249906: Enhance opening JARs",
+    "title": "Enhance opening JARs",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -211,7 +211,7 @@
   },
   {
     "id": "JDK-8258247",
-    "title": "8258247: Couple of issues in fix for JDK-8249906",
+    "title": "Couple of issues in fix for JDK-8249906",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -221,7 +221,7 @@
   },
   {
     "id": "JDK-8259428",
-    "title": "8259428: AlgorithmId.getEncodedParams() should return copy",
+    "title": "AlgorithmId.getEncodedParams() should return copy",
     "priority": null,
     "component": null,
     "subcomponent": null,
@@ -231,7 +231,7 @@
   },
   {
     "id": "JDK-8257001",
-    "title": "8257001: Improve HTTP client support",
+    "title": "Improve HTTP client support",
     "priority": null,
     "component": null,
     "subcomponent": null,
