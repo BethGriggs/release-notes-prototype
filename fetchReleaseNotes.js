@@ -13,11 +13,17 @@ import fetchJiraIssues from './lib/fetchJiraIssues.js';
 // parseArgs is used to parse command line arguments
 const options = {
   commitList: { type: 'string', alias: 'c' },
-  filename: { type: 'string', alias: 'f' },
+  filename: { type: 'string', alias: 'f', default: 'jdk-release-notes.json' },
   version: { type: 'string', alias: 'v' },
 };
 
 const { commitList, filename, version } = parseArgs({ options }).values;
+
+// error if required arguments are missing
+if (!commitList || !version) {
+  console.error('Missing required arguments');
+  process.exit(1);
+}
 
 const commits = JSON.parse(fs.readFileSync(commitList));
 
@@ -46,4 +52,9 @@ for (const commit of commits) {
   output.push(releaseNote);
 }
 
-fs.writeFileSync(path.resolve(process.cwd(), `${filename}`), JSON.stringify(output, null, 2));
+try {
+  console.log(`Writing release notes to ${filename}`);
+  fs.writeFileSync(path.resolve(process.cwd(), `${filename}`), JSON.stringify(output, null, 2));
+} catch (error) {
+  console.error(`Error writing file ${filename}: ${error.message}`);
+}
