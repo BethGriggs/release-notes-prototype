@@ -29,6 +29,7 @@ const commits = JSON.parse(fs.readFileSync(commitList));
 
 const output = [];
 
+console.log(`Fetching release notes for ${version} from JIRA`);
 const JIRA_ISSUES = await fetchJiraIssues(version);
 
 // loop through the commits and add the release notes to the output
