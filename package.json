@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "fetchReleaseNotes.js",
-  "bin": {
-    "fetch-commit-list": "./fetchCommitList.js",
-    "fetch-release-notes": "./fetchReleaseNotes.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --fix"
