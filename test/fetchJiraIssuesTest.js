@@ -7,11 +7,11 @@ test('fetchReleaseNotes', async (t) => {
 
   const issues = await fetchJiraIssues(version);
 
-  await t.test('returns an array', (t) => {
+  await t.test('returns an array', () => {
     assert.ok(Array.isArray(issues), 'should return an array');
   });
 
-  await t.test('first issue extracts expected values', (t) => {
+  await t.test('first issue extracts expected values', () => {
     if (issues.length > 0) {
       const firstIssue = issues[0];
 
