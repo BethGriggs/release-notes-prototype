@@ -1,6 +1,6 @@
 # OpenJDK Release Notes Tool
 
-This repository contains two scripts that can be used to generate OpenJDK notes. Typical usage will be to first generate the list of commits for the release using the `fetchCommitList.js` script and then run `fetchReleaseNotes.js` script, supplying the commit list as an input.
+This repository contains two scripts that can be used to generate OpenJDK release notes. Typical usage will be to first generate the list of commits for the release using the `fetchCommitList.js` script and then run the `fetchReleaseNotes.js` script, supplying the commit list from `fetchCommitList.js` as an input.
 
 ## Prerequisites
  
@@ -42,7 +42,7 @@ JSON array of commits and JDK issue IDs in the following format:
 ]
 ```
 
-Note that the same commit may reference multiple JDK issues.
+*NOTE:* The same commit may reference multiple JDK issues.
 
 ##  fetchReleaseNotes.js
 
