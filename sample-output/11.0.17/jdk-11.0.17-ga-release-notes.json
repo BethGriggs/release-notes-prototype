@@ -1320,24 +1320,24 @@
     "backportOf": "JDK-8282860"
   },
   {
-    "id": "JDK-8239379",
+    "id": "JDK-8291049",
     "title": "ProblemList serviceability/sa/sadebugd/DebugdConnectTest.java on OSX",
-    "priority": null,
-    "component": null,
-    "subcomponent": null,
-    "link": "https://bugs.openjdk.java.net/browse/JDK-8239379",
-    "type": null,
-    "backportOf": null
+    "priority": "3",
+    "component": "hotspot",
+    "subcomponent": "hotspot/svc-agent",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8291049",
+    "type": "Backport",
+    "backportOf": "JDK-8239379"
   },
   {
-    "id": "JDK-8271512",
+    "id": "JDK-8291050",
     "title": "ProblemList serviceability/sa/sadebugd/DebugdConnectTest.java due to 8270326",
-    "priority": null,
-    "component": null,
-    "subcomponent": null,
-    "link": "https://bugs.openjdk.java.net/browse/JDK-8271512",
-    "type": null,
-    "backportOf": null
+    "priority": "4",
+    "component": "hotspot",
+    "subcomponent": "hotspot/svc-agent",
+    "link": "https://bugs.openjdk.java.net/browse/JDK-8291050",
+    "type": "Backport",
+    "backportOf": "JDK-8271512"
   },
   {
     "id": "JDK-8291184",
