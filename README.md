@@ -3,7 +3,7 @@
 This repository contains two scripts that can be used to generate OpenJDK release notes. Typical usage will be to first generate the list of commits for the release using the `fetchCommitList.js` script and then run the `fetchReleaseNotes.js` script, supplying the commit list from `fetchCommitList.js` as an input.
 
 ## Prerequisites
- 
+
 * Node.js 18+
 
 ## fetchCommitList.js
@@ -23,7 +23,7 @@ Uses the GitHub API to output the commits between two tags on a given repository
 
 ### Usage
 
-```console 
+```console
 node fetchCommitList.js --repository <repository> --baseTag <baseTag> --tag <tag> --filename <filename>
 ```
 
@@ -59,7 +59,7 @@ Uses the commit list to gather information from https://bugs.openjdk.org/ for th
 
 ### Usage
 
-```console 
+```console
 node ./fetchReleaseNotes.js --commitList <filename> --version <fixVersion> --filename <filename>
 ```
 
